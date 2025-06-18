@@ -7,3 +7,5 @@ gvm
 gvm
 gvm
 python-gvm
+poetry
+poetry-core

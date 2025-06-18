@@ -1,0 +1,70 @@
+INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/ --resultdir /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/ --no-clean /opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-gvm-26.2.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+Start(bootstrap): init plugins
+INFO: selinux enabled
+Finish(bootstrap): init plugins
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+INFO: Start(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-gvm-26.2.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+Mock Version: 5.5
+INFO: Mock Version: 5.5
+Start(bootstrap): chroot init
+INFO: calling preinit hooks
+INFO: enabled root cache
+INFO: enabled package manager cache
+Start(bootstrap): cleaning package manager metadata
+Finish(bootstrap): cleaning package manager metadata
+INFO: Guessed host environment type: unknown
+INFO: Using bootstrap image: registry.access.redhat.com/ubi9/ubi
+INFO: Pulling image: registry.access.redhat.com/ubi9/ubi
+INFO: Copy content of container registry.access.redhat.com/ubi9/ubi to /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root
+INFO: Checking that registry.access.redhat.com/ubi9/ubi image matches host's architecture
+INFO: mounting registry.access.redhat.com/ubi9/ubi with podman image mount
+INFO: image registry.access.redhat.com/ubi9/ubi as /var/lib/containers/storage/overlay/2cef6271a18abcf3537ee99e51a42307609a6de25c1045b8c34b4b05b813c5fd/merged
+INFO: umounting image registry.access.redhat.com/ubi9/ubi (/var/lib/containers/storage/overlay/2cef6271a18abcf3537ee99e51a42307609a6de25c1045b8c34b4b05b813c5fd/merged) with podman image umount
+INFO: Package manager dnf detected and used (fallback)
+INFO: Not updating bootstrap chroot, bootstrap_image_ready=True
+Start(bootstrap): creating root cache
+Finish(bootstrap): creating root cache
+Finish(bootstrap): chroot init
+Start: chroot init
+INFO: calling preinit hooks
+INFO: enabled root cache
+INFO: enabled package manager cache
+Start: cleaning package manager metadata
+Finish: cleaning package manager metadata
+INFO: enabled HW Info plugin
+INFO: Package manager dnf detected and used (direct choice)
+INFO: Buildroot is handled by package management downloaded with a bootstrap image:
+  rpm-4.16.1.3-37.el9.x86_64
+  python3-dnf-4.14.0-25.el9.noarch
+  python3-dnf-plugins-core-4.3.0-20.el9.noarch
+  yum-4.14.0-25.el9.noarch
+Start: installing minimal buildroot with dnf
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  0.0  B/s |   0  B     00:00    
+Errors during downloading metadata for repository '_opt_greenbonerpm_rpmbuilds_100_RPMS_':
+  - Curl error (37): Couldn't read a file:// file for file:///opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/repodata/repomd.xml [Couldn't open file /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/repodata/repomd.xml]
+Error: Failed to download metadata for repo '_opt_greenbonerpm_rpmbuilds_100_RPMS_': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+ERROR: Exception(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-gvm-26.2.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 28 seconds
+INFO: Results and/or logs in: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/
+ERROR: Command failed: 
+ # /usr/bin/systemd-nspawn -q -M c06e80d80d634648b0379a617d406b98 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.6bntm1bn:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ -y --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock module enable nodejs:18 --setopt=tsflags=nocontexts
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  0.0  B/s |   0  B     00:00    
+Errors during downloading metadata for repository '_opt_greenbonerpm_rpmbuilds_100_RPMS_':
+  - Curl error (37): Couldn't read a file:// file for file:///opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/repodata/repomd.xml [Couldn't open file /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/repodata/repomd.xml]
+Error: Failed to download metadata for repo '_opt_greenbonerpm_rpmbuilds_100_RPMS_': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+

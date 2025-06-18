@@ -1,0 +1,13 @@
+diff --git a/src/sql_pg.c b/src/sql_pg.c
+index fb4a2dc..f8dfd4f 100644
+--- a/src/sql_pg.c
++++ b/src/sql_pg.c
+@@ -33,7 +33,7 @@
+ #include <glib.h>
+ #include <inttypes.h>
+ #include <netinet/in.h>
+-#include <postgresql/libpq-fe.h>
++#include <pgsql/libpq-fe.h>
+ #include <stdlib.h>
+ #include <string.h>
+ 

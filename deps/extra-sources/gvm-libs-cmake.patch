@@ -1,0 +1,12 @@
+diff --git a/boreas/CMakeLists.txt b/boreas/CMakeLists.txt
+index e2f86b2..066b696 100644
+--- a/boreas/CMakeLists.txt
++++ b/boreas/CMakeLists.txt
+@@ -16,6 +16,7 @@
+ # along with this program; if not, write to the Free Software
+ # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ 
++cmake_policy(SET CMP0004 OLD)
+ include (FindPkgConfig)
+ 
+ if (NOT PKG_CONFIG_FOUND)

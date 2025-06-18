@@ -1,0 +1,15 @@
+[Unit]
+Description=Greenbone Security Assistant daemon (gsad)
+After=network.target networking.service gvmd.service
+Documentation=man:gsad(8)
+ConditionKernelCommandLine=!recovery
+
+[Service]
+Type=simple
+EnvironmentFile=-/etc/sysconfig/gsad
+ExecStart=/usr/sbin/gsad --drop-privileges=gvm --foreground --listen $GSAD_ADDRESS --port $GSAD_PORT $GSAD_OPTIONS
+Restart=always
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-packaging-25.0-1.el9.src.rpm
+The lastest package built was python-setuptools-80.9.0-1.el9.src.rpm
 
-The build completed at Wed Jun 18 03:56:53 PM CEST 2025
+The build completed at Wed Jun 18 03:57:58 PM CEST 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-packaging-25.0-1.el9.src.rpm.log)
+[Build Log](logs/python-setuptools-80.9.0-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

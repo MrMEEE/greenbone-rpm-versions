@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/ --resultdir /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/ --no-clean /opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/ --resultdir /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/ --no-clean /opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-poetry-2.1.3-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-poetry-2.1.3-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -34,12 +34,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-20.el9.noarch
   yum-4.14.0-25.el9.noarch
 Finish: chroot init
-Start: build phase for python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
-Start: build setup for python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
+Start: build phase for python-poetry-2.1.3-1.el9.src.rpm
+Start: build setup for python-poetry-2.1.3-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750204800
-Wrote: /builddir/build/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-poetry-2.1.3-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
-/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.1 MB/s |  11 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                             [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                          [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder            [         ===                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [               ===                                       ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                             64 kB/s |  41 kB     00:00    
+/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.5 MB/s |  12 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                             [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          22 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                          [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder            [         ===                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [               ===                                       ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                             81 kB/s |  41 kB     00:00    
 Dependencies resolved.
 ==========================================================================================================================================================
  Package                                         Architecture               Version                           Repository                             Size
@@ -161,31 +161,33 @@ Installed:
   python3.11-setuptools-wheel-65.5.1-3.el9.noarch      
 
 Complete!
-Finish: build setup for python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
+Finish: build setup for python-poetry-2.1.3-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
+Start: rpmbuild python-poetry-2.1.3-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750204800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.9lrlkN
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.tIcGSu
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf trove_classifiers-2025.5.9.12
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/trove_classifiers-2025.5.9.12.tar.gz
++ rm -rf poetry-2.1.3
++ /usr/bin/gzip -dc /builddir/build/SOURCES/poetry-2.1.3.tar.gz
 + /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd trove_classifiers-2025.5.9.12
++ cd poetry-2.1.3
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ /usr/bin/cat /builddir/build/SOURCES/poetry-depfix.patch
++ /usr/bin/patch -p1 -s --fuzz=0 --no-backup-if-mismatch
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.SLGnLc
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.anIdGA
 + umask 022
 + cd /builddir/build/BUILD
-+ cd trove_classifiers-2025.5.9.12
++ cd poetry-2.1.3
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(packaging)'
@@ -194,7 +196,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.SLGnLc
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/poetry-2.1.3/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
@@ -204,17 +206,17 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.SLGnLc
 + LT_SYS_LIBRARY_PATH=/usr/lib64:
 + CC=gcc
 + CXX=g++
-+ TMPDIR=/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/poetry-2.1.3/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/trove_classifiers-2025.5.9.12/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/poetry-2.1.3/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-poetry-2.1.3-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
-+ cat /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-poetry-2.1.3-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-poetry-2.1.3-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -223,10 +225,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                             [===                                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                          [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder            [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         25 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                [         ===                                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                            281 kB/s |  41 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                             [===                                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                          [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder            [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder            [         ===                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder       100% [=========================================================] 4.5 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                        2.0 kB/s | 4.5 kB     00:02    
+Extra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                            275 kB/s |  41 kB     00:00    
 Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
@@ -266,10 +268,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750204800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.SsSy5w
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.sBz54O
 + umask 022
 + cd /builddir/build/BUILD
-+ cd trove_classifiers-2025.5.9.12
++ cd poetry-2.1.3
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(packaging)'
@@ -278,7 +280,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.SsSy5w
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/poetry-2.1.3/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
@@ -288,21 +290,19 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.SsSy5w
 + LT_SYS_LIBRARY_PATH=/usr/lib64:
 + CC=gcc
 + CXX=g++
-+ TMPDIR=/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/poetry-2.1.3/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/trove_classifiers-2025.5.9.12/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools from build-system.requires
-Requirement not satisfied: setuptools
-Handling calver from build-system.requires
-Requirement not satisfied: calver
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/poetry-2.1.3/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-poetry-2.1.3-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling poetry-core>=2.0 from build-system.requires
+Requirement not satisfied: poetry-core>=2.0
 Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-poetry-2.1.3-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-poetry-2.1.3-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -311,10 +311,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                             [===                                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                          [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                     100% [=========================================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                       14 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder            [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                [         ===                                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                             66 kB/s |  41 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                             [===                                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                          [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder            [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                [         ===                                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [               ===                                       ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [                  ===                                    ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                             17 kB/s |  41 kB     00:02    
 Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
@@ -322,43 +322,40 @@ Package python3.11-packaging-25.0-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Dependencies resolved.
 ==========================================================================================================================================================
- Package                               Architecture           Version                         Repository                                             Size
+ Package                                Architecture           Version                        Repository                                             Size
 ==========================================================================================================================================================
 Installing:
- [1mpython3.11-calver                    [m noarch                 2025.4.17-1.el9                 _opt_greenbonerpm_rpmbuilds_100_RPMS_                  16 k
- [1mpython3.11-setuptools                [m noarch                 80.9.0-1.el9                    _opt_greenbonerpm_rpmbuilds_100_RPMS_                 2.1 M
+ [1mpython3.11-poetry-core                [m noarch                 2.1.3-1.el9                    _opt_greenbonerpm_rpmbuilds_100_RPMS_                 723 k
 
 Transaction Summary
 ==========================================================================================================================================================
-Install  2 Packages
+Install  1 Package
 
-Total size: 2.1 M
-Installed size: 11 M
+Total size: 723 k
+Installed size: 3.3 M
 Downloading Packages:
 Running transaction check
 Transaction check succeeded.
 Running transaction test
 Transaction test succeeded.
 Running transaction
-  Preparing        :  [==============================================================                                                               ] 1/1  Preparing        :                                                                                                                                  1/1 
-  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [                                                                                    ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=                                                                                   ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==                                                                                  ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===                                                                                 ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [====                                                                                ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=====                                                                               ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [======                                                                              ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=======                                                                             ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [========                                                                            ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=========                                                                           ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==========                                                                          ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===========                                                                         ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [============                                                                        ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=============                                                                       ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==============                                                                      ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===============                                                                     ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [================                                                                    ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=================                                                                   ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==================                                                                  ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===================                                                                 ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [====================                                                                ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=====================                                                               ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [======================                                                              ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=======================                                                             ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [========================                                                            ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=========================                                                           ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==========================                                                          ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===========================                                                         ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [============================                                                        ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=============================                                                       ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==============================                                                      ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===============================                                                     ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [================================                                                    ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=================================                                                   ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==================================                                                  ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===================================                                                 ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [====================================                                                ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=====================================                                               ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [======================================                                              ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=======================================                                             ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [========================================                                            ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=========================================                                           ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==========================================                                          ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===========================================                                         ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [============================================                                        ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=============================================                                       ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==============================================                                      ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===============================================                                     ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [================================================                                    ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=================================================                                   ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==================================================                                  ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===================================================                                 ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [====================================================                                ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=====================================================                               ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [======================================================                              ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=======================================================                             ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [========================================================                            ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=========================================================                           ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==========================================================                          ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===========================================================                         ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [============================================================                        ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=============================================================                       ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==============================================================                      ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===============================================================                     ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [================================================================                    ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=================================================================                   ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==================================================================                  ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===================================================================                 ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [====================================================================                ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=====================================================================               ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [======================================================================              ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=======================================================================             ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [========================================================================            ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=========================================================================           ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==========================================================================          ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===========================================================================         ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [============================================================================        ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=============================================================================       ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==============================================================================      ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [===============================================================================     ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [================================================================================    ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=================================================================================   ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [==================================================================================  ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch [=================================================================================== ] 1/2  Installing       : python3.11-setuptools-80.9.0-1.el9.noarch                                                                                        1/2 
-  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [                                                                                     ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [=                                                                                    ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [===========                                                                          ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [============                                                                         ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [==============                                                                       ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [===========================================================                          ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [============================================================                         ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [=============================================================                        ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [==============================================================                       ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [===================================================================                  ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [====================================================================                 ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [=====================================================================                ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [======================================================================               ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch [==================================================================================== ] 2/2  Installing       : python3.11-calver-2025.4.17-1.el9.noarch                                                                                         2/2 
-  Running scriptlet: python3.11-calver-2025.4.17-1.el9.noarch                                                                                         2/2 
-  Verifying        : python3.11-calver-2025.4.17-1.el9.noarch                                                                                         1/2 
-  Verifying        : python3.11-setuptools-80.9.0-1.el9.noarch                                                                                        2/2 
+  Preparing        :                                                                                                                                  1/1 
+  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [                                                                                    ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=                                                                                   ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==                                                                                  ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===                                                                                 ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [====                                                                                ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=====                                                                               ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [======                                                                              ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=======                                                                             ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [========                                                                            ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=========                                                                           ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==========                                                                          ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===========                                                                         ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [============                                                                        ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=============                                                                       ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==============                                                                      ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===============                                                                     ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [================                                                                    ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=================                                                                   ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==================                                                                  ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===================                                                                 ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [====================                                                                ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=====================                                                               ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [======================                                                              ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=======================                                                             ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [========================                                                            ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=========================                                                           ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==========================                                                          ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===========================                                                         ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [============================                                                        ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=============================                                                       ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==============================                                                      ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===============================                                                     ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [================================                                                    ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=================================                                                   ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==================================                                                  ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===================================                                                 ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [====================================                                                ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=====================================                                               ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [======================================                                              ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=======================================                                             ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [========================================                                            ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=========================================                                           ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==========================================                                          ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===========================================                                         ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [============================================                                        ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=============================================                                       ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==============================================                                      ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===============================================                                     ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [================================================                                    ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=================================================                                   ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==================================================                                  ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===================================================                                 ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [====================================================                                ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=====================================================                               ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [======================================================                              ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=======================================================                             ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [========================================================                            ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=========================================================                           ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==========================================================                          ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===========================================================                         ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [============================================================                        ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=============================================================                       ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==============================================================                      ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===============================================================                     ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [================================================================                    ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=================================================================                   ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==================================================================                  ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===================================================================                 ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [====================================================================                ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=====================================================================               ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [======================================================================              ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=======================================================================             ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [========================================================================            ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=========================================================================           ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==========================================================================          ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===========================================================================         ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [============================================================================        ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=============================================================================       ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==============================================================================      ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [===============================================================================     ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [================================================================================    ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=================================================================================   ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [==================================================================================  ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch [=================================================================================== ] 1/1  Installing       : python3.11-poetry-core-2.1.3-1.el9.noarch                                                                                        1/1 
+  Running scriptlet: python3.11-poetry-core-2.1.3-1.el9.noarch                                                                                        1/1 
+  Verifying        : python3.11-poetry-core-2.1.3-1.el9.noarch                                                                                        1/1 
 Installed products updated.
 
 Installed:
-  python3.11-calver-2025.4.17-1.el9.noarch                                    python3.11-setuptools-80.9.0-1.el9.noarch                                   
+  python3.11-poetry-core-2.1.3-1.el9.noarch                                                                                                               
 
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750204800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.pCfncx
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.z8bcvJ
 + umask 022
 + cd /builddir/build/BUILD
-+ cd trove_classifiers-2025.5.9.12
++ cd poetry-2.1.3
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(packaging)'
@@ -367,7 +364,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.pCfncx
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/poetry-2.1.3/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
@@ -377,56 +374,69 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.pCfncx
 + LT_SYS_LIBRARY_PATH=/usr/lib64:
 + CC=gcc
 + CXX=g++
-+ TMPDIR=/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/poetry-2.1.3/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/trove_classifiers-2025.5.9.12/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools from build-system.requires
-Requirement satisfied: setuptools
-   (installed: setuptools 80.9.0)
-Handling calver from build-system.requires
-Requirement satisfied: calver
-   (installed: calver 2025.4.17)
-Handling calver from get_requires_for_build_wheel
-Requirement satisfied: calver
-   (installed: calver 2025.4.17)
-/usr/lib/python3.11/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
-!!
-
-        ********************************************************************************
-        Please consider removing the following classifiers in favor of a SPDX license expression:
-
-        License :: OSI Approved :: Apache Software License
-
-        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
-        ********************************************************************************
-
-!!
-  self._finalize_license_expression()
-running dist_info
-creating trove_classifiers.egg-info
-writing trove_classifiers.egg-info/PKG-INFO
-writing dependency_links to trove_classifiers.egg-info/dependency_links.txt
-writing entry points to trove_classifiers.egg-info/entry_points.txt
-writing top-level names to trove_classifiers.egg-info/top_level.txt
-writing manifest file 'trove_classifiers.egg-info/SOURCES.txt'
-reading manifest file 'trove_classifiers.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-adding license file 'LICENSE'
-writing manifest file 'trove_classifiers.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/trove_classifiers-2025.5.9.12/trove_classifiers-2025.5.9.12.dist-info'
-+ cat /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv trove_classifiers-2025.5.9.12.dist-info/
-removed 'trove_classifiers-2025.5.9.12.dist-info/entry_points.txt'
-removed 'trove_classifiers-2025.5.9.12.dist-info/top_level.txt'
-removed 'trove_classifiers-2025.5.9.12.dist-info/METADATA'
-removed 'trove_classifiers-2025.5.9.12.dist-info/licenses/LICENSE'
-removed directory 'trove_classifiers-2025.5.9.12.dist-info/licenses'
-removed directory 'trove_classifiers-2025.5.9.12.dist-info/'
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/poetry-2.1.3/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-poetry-2.1.3-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling poetry-core>=2.0 from build-system.requires
+Requirement satisfied: poetry-core>=2.0
+   (installed: poetry-core 2.1.3)
+Handling build (>=1.2.1,<2.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: build (>=1.2.1,<2.0.0)
+Handling cachecontrol[filecache] (>=0.14.0,<0.15.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: cachecontrol[filecache] (>=0.14.0,<0.15.0)
+Handling cleo (>=2.1.0,<3.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: cleo (>=2.1.0,<3.0.0)
+Handling dulwich (>=0.22.6,<0.23.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: dulwich (>=0.22.6,<0.23.0)
+Handling fastjsonschema (>=2.18.0,<3.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: fastjsonschema (>=2.18.0,<3.0.0)
+Handling findpython (>=0.6.2,<0.7.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: findpython (>=0.6.2,<0.7.0)
+Handling importlib-metadata (>=4.4,<8.7) ; python_version < "3.10" from hook generated metadata: Requires-Dist (poetry)
+Ignoring alien requirement: importlib-metadata (>=4.4,<8.7) ; python_version < "3.10"
+Handling installer (>=0.7.0,<0.8.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: installer (>=0.7.0,<0.8.0)
+Handling keyring (>=25.1.0,<26.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: keyring (>=25.1.0,<26.0.0)
+Handling pbs-installer[download,install] (>=2025.1.6,<2026.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: pbs-installer[download,install] (>=2025.1.6,<2026.0.0)
+Handling pkginfo (>=1.12,<2.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: pkginfo (>=1.12,<2.0)
+Handling platformdirs (>=3.0.0,<5) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: platformdirs (>=3.0.0,<5)
+Handling poetry-core (==2.1.3) from hook generated metadata: Requires-Dist (poetry)
+Requirement satisfied: poetry-core (==2.1.3)
+   (installed: poetry-core 2.1.3)
+Handling pyproject-hooks (>=1.0.0,<2.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: pyproject-hooks (>=1.0.0,<2.0.0)
+Handling requests (>=2.26,<3.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: requests (>=2.26,<3.0)
+Handling requests-toolbelt (>=1.0.0,<2.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: requests-toolbelt (>=1.0.0,<2.0.0)
+Handling shellingham (>=1.5,<2.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: shellingham (>=1.5,<2.0)
+Handling tomli (>=2.0.1,<3.0.0) ; python_version < "3.11" from hook generated metadata: Requires-Dist (poetry)
+Ignoring alien requirement: tomli (>=2.0.1,<3.0.0) ; python_version < "3.11"
+Handling tomlkit (>=0.11.4,<1.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: tomlkit (>=0.11.4,<1.0.0)
+Handling trove-classifiers (>=2022.5.19) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: trove-classifiers (>=2022.5.19)
+Handling virtualenv (>=20.26.6,<21.0.0) from hook generated metadata: Requires-Dist (poetry)
+Requirement not satisfied: virtualenv (>=20.26.6,<21.0.0)
+Handling xattr (>=1.0.0,<2.0.0) ; sys_platform == "darwin" from hook generated metadata: Requires-Dist (poetry)
+Ignoring alien requirement: xattr (>=1.0.0,<2.0.0) ; sys_platform == "darwin"
++ cat /builddir/build/BUILD/python-poetry-2.1.3-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv poetry-2.1.3.dist-info/
+removed 'poetry-2.1.3.dist-info/entry_points.txt'
+removed 'poetry-2.1.3.dist-info/WHEEL'
+removed 'poetry-2.1.3.dist-info/METADATA'
+removed 'poetry-2.1.3.dist-info/LICENSE'
+removed directory 'poetry-2.1.3.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-poetry-2.1.3-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -435,270 +445,81 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                             [===                                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                          [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder            [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                [         ===                                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                             82 kB/s |  41 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                             [===                                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                          [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder            [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                [         ===                                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                            282 kB/s |  41 kB     00:00    
 Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
-Package python3.11-calver-2025.4.17-1.el9.noarch is already installed.
 Package python3.11-packaging-25.0-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Package python3.11-setuptools-80.9.0-1.el9.noarch is already installed.
-Dependencies resolved.
-Nothing to do.
-Complete!
-Building target platforms: x86_64
-Building for target x86_64
-setting SOURCE_DATE_EPOCH=1750204800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5aRUky
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd trove_classifiers-2025.5.9.12
-+ echo pyproject-rpm-macros
-+ echo python3.11-devel
-+ echo 'python3.11dist(packaging)'
-+ echo 'python3.11dist(pip) >= 19'
-+ '[' -f pyproject.toml ']'
-+ true
-+ rm -rfv '*.dist-info/'
-+ '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
-+ echo -n
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
-+ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ LT_SYS_LIBRARY_PATH=/usr/lib64:
-+ CC=gcc
-+ CXX=g++
-+ TMPDIR=/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
-+ RPM_TOXENV=py311
-+ HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/trove_classifiers-2025.5.9.12/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools from build-system.requires
-Requirement satisfied: setuptools
-   (installed: setuptools 80.9.0)
-Handling calver from build-system.requires
-Requirement satisfied: calver
-   (installed: calver 2025.4.17)
-Handling calver from get_requires_for_build_wheel
-Requirement satisfied: calver
-   (installed: calver 2025.4.17)
-/usr/lib/python3.11/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
-!!
-
-        ********************************************************************************
-        Please consider removing the following classifiers in favor of a SPDX license expression:
-
-        License :: OSI Approved :: Apache Software License
-
-        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
-        ********************************************************************************
-
-!!
-  self._finalize_license_expression()
-running dist_info
-writing trove_classifiers.egg-info/PKG-INFO
-writing dependency_links to trove_classifiers.egg-info/dependency_links.txt
-writing entry points to trove_classifiers.egg-info/entry_points.txt
-writing top-level names to trove_classifiers.egg-info/top_level.txt
-reading manifest file 'trove_classifiers.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-adding license file 'LICENSE'
-writing manifest file 'trove_classifiers.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/trove_classifiers-2025.5.9.12/trove_classifiers-2025.5.9.12.dist-info'
-+ cat /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv trove_classifiers-2025.5.9.12.dist-info/
-removed 'trove_classifiers-2025.5.9.12.dist-info/entry_points.txt'
-removed 'trove_classifiers-2025.5.9.12.dist-info/top_level.txt'
-removed 'trove_classifiers-2025.5.9.12.dist-info/METADATA'
-removed 'trove_classifiers-2025.5.9.12.dist-info/licenses/LICENSE'
-removed directory 'trove_classifiers-2025.5.9.12.dist-info/licenses'
-removed directory 'trove_classifiers-2025.5.9.12.dist-info/'
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.8JnqSg
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd trove_classifiers-2025.5.9.12
-+ mkdir -p /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
-+ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ LT_SYS_LIBRARY_PATH=/usr/lib64:
-+ CC=gcc
-+ CXX=g++
-+ TMPDIR=/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/trove_classifiers-2025.5.9.12/pyproject-wheeldir-3.11
-Processing /builddir/build/BUILD/trove_classifiers-2025.5.9.12
-  Preparing metadata (pyproject.toml): started
-  Running command Preparing metadata (pyproject.toml)
-  /usr/lib/python3.11/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
-  !!
-
-          ********************************************************************************
-          Please consider removing the following classifiers in favor of a SPDX license expression:
-
-          License :: OSI Approved :: Apache Software License
-
-          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
-          ********************************************************************************
-
-  !!
-    self._finalize_license_expression()
-  running dist_info
-  creating /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11/pip-modern-metadata-wyy8h4vy/trove_classifiers.egg-info
-  writing /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11/pip-modern-metadata-wyy8h4vy/trove_classifiers.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11/pip-modern-metadata-wyy8h4vy/trove_classifiers.egg-info/dependency_links.txt
-  writing entry points to /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11/pip-modern-metadata-wyy8h4vy/trove_classifiers.egg-info/entry_points.txt
-  writing top-level names to /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11/pip-modern-metadata-wyy8h4vy/trove_classifiers.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11/pip-modern-metadata-wyy8h4vy/trove_classifiers.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11/pip-modern-metadata-wyy8h4vy/trove_classifiers.egg-info/SOURCES.txt'
-  reading manifest template 'MANIFEST.in'
-  adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11/pip-modern-metadata-wyy8h4vy/trove_classifiers.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11/pip-modern-metadata-wyy8h4vy/trove_classifiers-2025.5.9.12.dist-info'
-  Preparing metadata (pyproject.toml): finished with status 'done'
-Building wheels for collected packages: trove-classifiers
-  Building wheel for trove-classifiers (pyproject.toml): started
-  Running command Building wheel for trove-classifiers (pyproject.toml)
-  /usr/lib/python3.11/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
-  !!
-
-          ********************************************************************************
-          Please consider removing the following classifiers in favor of a SPDX license expression:
-
-          License :: OSI Approved :: Apache Software License
-
-          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
-          ********************************************************************************
-
-  !!
-    self._finalize_license_expression()
-  running bdist_wheel
-  running build
-  running build_py
-  creating build/lib/trove_classifiers
-  copying src/trove_classifiers/__init__.py -> build/lib/trove_classifiers
-  copying src/trove_classifiers/__main__.py -> build/lib/trove_classifiers
-  copying src/trove_classifiers/py.typed -> build/lib/trove_classifiers
-  installing to build/bdist.linux-x86_64/wheel
-  running install
-  running install_lib
-  creating build/bdist.linux-x86_64/wheel
-  creating build/bdist.linux-x86_64/wheel/trove_classifiers
-  copying build/lib/trove_classifiers/__init__.py -> build/bdist.linux-x86_64/wheel/./trove_classifiers
-  copying build/lib/trove_classifiers/__main__.py -> build/bdist.linux-x86_64/wheel/./trove_classifiers
-  copying build/lib/trove_classifiers/py.typed -> build/bdist.linux-x86_64/wheel/./trove_classifiers
-  running install_egg_info
-  running egg_info
-  writing src/trove_classifiers.egg-info/PKG-INFO
-  writing dependency_links to src/trove_classifiers.egg-info/dependency_links.txt
-  writing entry points to src/trove_classifiers.egg-info/entry_points.txt
-  writing top-level names to src/trove_classifiers.egg-info/top_level.txt
-  reading manifest file 'src/trove_classifiers.egg-info/SOURCES.txt'
-  reading manifest template 'MANIFEST.in'
-  adding license file 'LICENSE'
-  writing manifest file 'src/trove_classifiers.egg-info/SOURCES.txt'
-  Copying src/trove_classifiers.egg-info to build/bdist.linux-x86_64/wheel/./trove_classifiers-2025.5.9.12-py3.11.egg-info
-  running install_scripts
-  creating build/bdist.linux-x86_64/wheel/trove_classifiers-2025.5.9.12.dist-info/WHEEL
-  creating '/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11/pip-wheel-xjxmp_zu/.tmp-_im05tqr/trove_classifiers-2025.5.9.12-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
-  adding 'trove_classifiers/__init__.py'
-  adding 'trove_classifiers/__main__.py'
-  adding 'trove_classifiers/py.typed'
-  adding 'trove_classifiers-2025.5.9.12.dist-info/licenses/LICENSE'
-  adding 'trove_classifiers-2025.5.9.12.dist-info/METADATA'
-  adding 'trove_classifiers-2025.5.9.12.dist-info/WHEEL'
-  adding 'trove_classifiers-2025.5.9.12.dist-info/entry_points.txt'
-  adding 'trove_classifiers-2025.5.9.12.dist-info/top_level.txt'
-  adding 'trove_classifiers-2025.5.9.12.dist-info/RECORD'
-  removing build/bdist.linux-x86_64/wheel
-  Building wheel for trove-classifiers (pyproject.toml): finished with status 'done'
-  Created wheel for trove-classifiers: filename=trove_classifiers-2025.5.9.12-py3-none-any.whl size=14120 sha256=2b3b32dccd620fb7415908b5f3bf35a83274643845d4680b81aa5fe835673faf
-  Stored in directory: /builddir/.cache/pip/wheels/f7/5e/ee/0b26ffbbbca89f93b65a0ca1ae54fef5137c997389e16d8e0d
-Successfully built trove-classifiers
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.0BFXbD
-+ umask 022
-+ cd /builddir/build/BUILD
-+ '[' /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64 '!=' / ']'
-+ rm -rf /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64
-++ dirname /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64
-+ mkdir -p /builddir/build/BUILDROOT
-+ mkdir /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64
-+ cd trove_classifiers-2025.5.9.12
-++ ls /builddir/build/BUILD/trove_classifiers-2025.5.9.12/pyproject-wheeldir-3.11/trove_classifiers-2025.5.9.12-py3-none-any.whl
-++ xargs basename --multiple
-++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
-+ specifier=trove_classifiers==2025.5.9.12
-+ '[' -z trove_classifiers==2025.5.9.12 ']'
-+ TMPDIR=/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/trove_classifiers-2025.5.9.12/pyproject-wheeldir-3.11 trove_classifiers==2025.5.9.12
-Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
-Looking in links: /builddir/build/BUILD/trove_classifiers-2025.5.9.12/pyproject-wheeldir-3.11
-Processing ./pyproject-wheeldir-3.11/trove_classifiers-2025.5.9.12-py3-none-any.whl
-Installing collected packages: trove_classifiers
-  Creating /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/bin
-  changing mode of /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/bin/trove-classifiers to 755
-Successfully installed trove_classifiers-2025.5.9.12
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-+ '[' -d /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/bin ']'
-+ '[' -z sP ']'
-+ shebang_flags=-kasP
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pathfix.py -pni /usr/bin/python3.11 -kasP /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/bin/trove-classifiers
-/builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/bin/trove-classifiers: updating
-+ rm -rfv /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/bin/__pycache__
-+ rm -f /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-ghost-distinfo
-+ site_dirs=()
-+ '[' -d /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ site_dirs+=("/usr/lib/python3.11/site-packages")
-+ '[' /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ '[' -d /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
-+ for site_dir in ${site_dirs[@]}
-+ for distinfo in /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64$site_dir/*.dist-info
-+ echo '%ghost /usr/lib/python3.11/site-packages/trove_classifiers-2025.5.9.12.dist-info'
-+ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2025.5.9.12.dist-info/INSTALLER
-+ PYTHONPATH=/usr/lib/rpm/redhat
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2025.5.9.12.dist-info/RECORD --output /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-record
-+ rm -fv /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2025.5.9.12.dist-info/RECORD
-removed '/builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2025.5.9.12.dist-info/RECORD'
-+ rm -fv /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2025.5.9.12.dist-info/REQUESTED
-removed '/builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2025.5.9.12.dist-info/REQUESTED'
-++ wc -l /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-ghost-distinfo
-++ cut -f1 '-d '
-+ lines=1
-+ '[' 1 -ne 1 ']'
-+ RPM_FILES_ESCAPE=4.18
-+ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
-+ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 2025.5.9.12-1.el9 --unique-debug-suffix -2025.5.9.12-1.el9.x86_64 --unique-debug-src-base python-trove-classifiers-2025.5.9.12-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/trove_classifiers-2025.5.9.12
-find: 'debug': No such file or directory
-+ /usr/lib/rpm/check-buildroot
-+ /usr/lib/rpm/redhat/brp-ldconfig
-+ /usr/lib/rpm/brp-compress
-+ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
-+ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
-+ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64/usr/lib/python3.11 using python3.11
-+ /usr/lib/rpm/brp-python-hardlink
-+ /usr/lib/rpm/redhat/brp-mangle-shebangs
-Processing files: python3.11-trove-classifiers-2025.5.9.12-1.el9.noarch
-Provides: python3.11-trove-classifiers = 2025.5.9.12-1.el9 python3.11dist(trove-classifiers) = 2025.5.9.12
-Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
-Requires: /usr/bin/python3.11 python(abi) = 3.11
-Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-trove-classifiers-2025.5.9.12-1.el9.x86_64
-Wrote: /builddir/build/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
-Wrote: /builddir/build/RPMS/python3.11-trove-classifiers-2025.5.9.12-1.el9.noarch.rpm
-Finish: rpmbuild python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
-Finish: build phase for python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
-INFO: Done(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 40 seconds
+Package python3.11-poetry-core-2.1.3-1.el9.noarch is already installed.
+Package python3.11-poetry-core-2.1.3-1.el9.noarch is already installed.
+Error: 
+ Problem 1: nothing provides requested (python3.11dist(build) < 2~~ with python3.11dist(build) >= 1.2.1)
+ Problem 2: nothing provides requested (python3.11dist(cachecontrol) < 0.15~~ with python3.11dist(cachecontrol) >= 0.14)
+ Problem 3: nothing provides requested (python3.11dist(cachecontrol[filecache]) < 0.15~~ with python3.11dist(cachecontrol[filecache]) >= 0.14)
+ Problem 4: nothing provides requested (python3.11dist(cleo) < 3~~ with python3.11dist(cleo) >= 2.1)
+ Problem 5: nothing provides requested (python3.11dist(dulwich) < 0.23~~ with python3.11dist(dulwich) >= 0.22.6)
+ Problem 6: nothing provides requested (python3.11dist(fastjsonschema) < 3~~ with python3.11dist(fastjsonschema) >= 2.18)
+ Problem 7: nothing provides requested (python3.11dist(findpython) < 0.7~~ with python3.11dist(findpython) >= 0.6.2)
+ Problem 8: nothing provides requested (python3.11dist(installer) < 0.8~~ with python3.11dist(installer) >= 0.7)
+ Problem 9: nothing provides requested (python3.11dist(keyring) < 26~~ with python3.11dist(keyring) >= 25.1)
+ Problem 10: nothing provides requested (python3.11dist(pbs-installer) < 2026~~ with python3.11dist(pbs-installer) >= 2025.1.6)
+ Problem 11: nothing provides requested (python3.11dist(pbs-installer[download]) < 2026~~ with python3.11dist(pbs-installer[download]) >= 2025.1.6)
+ Problem 12: nothing provides requested (python3.11dist(pbs-installer[install]) < 2026~~ with python3.11dist(pbs-installer[install]) >= 2025.1.6)
+ Problem 13: nothing provides requested (python3.11dist(pkginfo) < 2~~ with python3.11dist(pkginfo) >= 1.12)
+ Problem 14: nothing provides requested (python3.11dist(platformdirs) < 5~~ with python3.11dist(platformdirs) >= 3)
+ Problem 15: nothing provides requested (python3.11dist(pyproject-hooks) < 2~~ with python3.11dist(pyproject-hooks) >= 1)
+ Problem 16: nothing provides requested (python3.11dist(requests-toolbelt) < 2~~ with python3.11dist(requests-toolbelt) >= 1)
+ Problem 17: nothing provides requested (python3.11dist(shellingham) < 2~~ with python3.11dist(shellingham) >= 1.5)
+ Problem 18: nothing provides requested (python3.11dist(tomlkit) < 1~~ with python3.11dist(tomlkit) >= 0.11.4)
+ Problem 19: nothing provides requested (python3.11dist(virtualenv) < 21~~ with python3.11dist(virtualenv) >= 20.26.6)
+(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
+Finish: rpmbuild python-poetry-2.1.3-1.el9.src.rpm
+Finish: build phase for python-poetry-2.1.3-1.el9.src.rpm
+ERROR: Exception(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-poetry-2.1.3-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 41 seconds
 INFO: Results and/or logs in: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/
-Finish: run
+ERROR: Command failed: 
+ # /usr/bin/systemd-nspawn -q -M 70f4e8978213492c82862acd4ca442ee -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.9ba86u8s:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-poetry-2.1.3-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                          16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                       19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                         18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                            282 kB/s |  41 kB     00:00    
+Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
+Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
+Package python3.11-packaging-25.0-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-poetry-core-2.1.3-1.el9.noarch is already installed.
+Package python3.11-poetry-core-2.1.3-1.el9.noarch is already installed.
+Error: 
+ Problem 1: nothing provides requested (python3.11dist(build) < 2~~ with python3.11dist(build) >= 1.2.1)
+ Problem 2: nothing provides requested (python3.11dist(cachecontrol) < 0.15~~ with python3.11dist(cachecontrol) >= 0.14)
+ Problem 3: nothing provides requested (python3.11dist(cachecontrol[filecache]) < 0.15~~ with python3.11dist(cachecontrol[filecache]) >= 0.14)
+ Problem 4: nothing provides requested (python3.11dist(cleo) < 3~~ with python3.11dist(cleo) >= 2.1)
+ Problem 5: nothing provides requested (python3.11dist(dulwich) < 0.23~~ with python3.11dist(dulwich) >= 0.22.6)
+ Problem 6: nothing provides requested (python3.11dist(fastjsonschema) < 3~~ with python3.11dist(fastjsonschema) >= 2.18)
+ Problem 7: nothing provides requested (python3.11dist(findpython) < 0.7~~ with python3.11dist(findpython) >= 0.6.2)
+ Problem 8: nothing provides requested (python3.11dist(installer) < 0.8~~ with python3.11dist(installer) >= 0.7)
+ Problem 9: nothing provides requested (python3.11dist(keyring) < 26~~ with python3.11dist(keyring) >= 25.1)
+ Problem 10: nothing provides requested (python3.11dist(pbs-installer) < 2026~~ with python3.11dist(pbs-installer) >= 2025.1.6)
+ Problem 11: nothing provides requested (python3.11dist(pbs-installer[download]) < 2026~~ with python3.11dist(pbs-installer[download]) >= 2025.1.6)
+ Problem 12: nothing provides requested (python3.11dist(pbs-installer[install]) < 2026~~ with python3.11dist(pbs-installer[install]) >= 2025.1.6)
+ Problem 13: nothing provides requested (python3.11dist(pkginfo) < 2~~ with python3.11dist(pkginfo) >= 1.12)
+ Problem 14: nothing provides requested (python3.11dist(platformdirs) < 5~~ with python3.11dist(platformdirs) >= 3)
+ Problem 15: nothing provides requested (python3.11dist(pyproject-hooks) < 2~~ with python3.11dist(pyproject-hooks) >= 1)
+ Problem 16: nothing provides requested (python3.11dist(requests-toolbelt) < 2~~ with python3.11dist(requests-toolbelt) >= 1)
+ Problem 17: nothing provides requested (python3.11dist(shellingham) < 2~~ with python3.11dist(shellingham) >= 1.5)
+ Problem 18: nothing provides requested (python3.11dist(tomlkit) < 1~~ with python3.11dist(tomlkit) >= 0.11.4)
+ Problem 19: nothing provides requested (python3.11dist(virtualenv) < 21~~ with python3.11dist(virtualenv) >= 20.26.6)
+(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
+

@@ -10,3 +10,4 @@ python-gvm
 poetry
 poetry-core
 trove-classifiers
+calver

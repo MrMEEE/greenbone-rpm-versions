@@ -1,0 +1,12 @@
+diff -uNr poetry-2.1.3/pyproject.toml poetry-2.1.3-fix/pyproject.toml
+--- poetry-2.1.3/pyproject.toml	1970-01-01 01:00:00.000000000 +0100
++++ poetry-2.1.3-fix/pyproject.toml	2025-06-18 15:45:25.778917336 +0200
+@@ -16,7 +16,7 @@
+     "installer (>=0.7.0,<0.8.0)",
+     "keyring (>=25.1.0,<26.0.0)",
+     # packaging uses calver, so version is unclamped
+-    "packaging (>=24.0)",
++    #"packaging (>=24.0)",
+     "pkginfo (>=1.12,<2.0)",
+     "platformdirs (>=3.0.0,<5)",
+     "pyproject-hooks (>=1.0.0,<2.0.0)",

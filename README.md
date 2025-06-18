@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-calver-2025.4.17-1.el9.src.rpm
+The lastest package built was python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
 
-The build completed at Wed Jun 18 04:00:22 PM CEST 2025
+The build completed at Wed Jun 18 04:01:12 PM CEST 2025
 
 The build was successful.
 
-[Build Log](logs/python-calver-2025.4.17-1.el9.src.rpm.log)
+[Build Log](logs/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

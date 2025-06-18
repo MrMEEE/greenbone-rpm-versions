@@ -9,3 +9,4 @@ gvm
 python-gvm
 poetry
 poetry-core
+trove-classifiers

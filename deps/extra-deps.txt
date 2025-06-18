@@ -11,3 +11,4 @@ poetry
 poetry-core
 trove-classifiers
 calver
+setuptools

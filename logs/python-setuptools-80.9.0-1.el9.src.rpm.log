@@ -350,3 +350,9 @@ INFO: Results and/or logs in: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/
 ERROR: Command failed: 
  # ['bash', '--login', '-c', '/usr/bin/rpmbuild -br --noprep --noclean --target x86_64 --nodeps /builddir/build/SPECS/python-setuptools.spec --nocheck']
 
+Directory walk started
+Directory walk done - 1 packages
+Temporary output repo path: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/.repodata/
+Preparing sqlite DBs
+Pool started (with 5 workers)
+Pool finished

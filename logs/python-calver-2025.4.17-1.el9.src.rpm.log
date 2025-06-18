@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
-/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  800 kB/s | 3.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                             [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                          [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder            [         ===                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                            151 kB/s |  41 kB     00:00    
+/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  774 kB/s | 3.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                             [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                          [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder            [         ===                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [               ===                                       ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64            38% [=====================-                                   ]  52 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                             57 kB/s |  41 kB     00:00    
 Dependencies resolved.
 ==========================================================================================================================================================
  Package                                         Architecture               Version                           Repository                             Size
@@ -168,13 +168,13 @@ Start: rpmbuild python-calver-2025.4.17-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750204800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.eQ09gD
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.EbQxAn
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf calver-2025.4.17
-+ /usr/bin/tar -xof -
 + /usr/bin/gzip -dc /builddir/build/SOURCES/calver-2025.4.17.tar.gz
++ /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd calver-2025.4.17
@@ -184,7 +184,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.eQ09gD
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.zn3imD
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GYOV8C
 + umask 022
 + cd /builddir/build/BUILD
 + cd calver-2025.4.17
@@ -226,9 +226,9 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                             [===                                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                          [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       25 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder            [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                [         ===                                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                             68 kB/s |  41 kB     00:00    
+Red Hat Enterprise Linux - AppStream                          [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder            [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                [         ===                                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                            335 kB/s |  41 kB     00:00    
 Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
@@ -274,7 +274,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750204800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.7aHdPN
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.OAy3Yc
 + umask 022
 + cd /builddir/build/BUILD
 + cd calver-2025.4.17
@@ -300,34 +300,197 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.7aHdPN
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
 + /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/calver-2025.4.17/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-calver-2025.4.17-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools from build-system.requires
+Requirement not satisfied: setuptools
+Exiting dependency generation pass: build backend
++ cat /builddir/build/BUILD/python-calver-2025.4.17-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv '*.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-calver-2025.4.17-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                             [===                                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                          [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder            [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder       100% [=========================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         15 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                [         ===                                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                            354 kB/s |  41 kB     00:00    
+Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
+Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
+Package python3.11-packaging-21.3-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Dependencies resolved.
+==========================================================================================================================================================
+ Package                                      Architecture                  Version                                Repository                        Size
+==========================================================================================================================================================
+Installing:
+ [1mpython3.11-setuptools                       [m noarch                        65.5.1-3.el9                           appstream                        1.7 M
+
+Transaction Summary
+==========================================================================================================================================================
+Install  1 Package
+
+Total download size: 1.7 M
+Installed size: 8.5 M
+Downloading Packages:
+python3.11-setuptools-65.5.1-3.el9.noarch.rpm              0% [                                                         ] ---  B/s |   0  B     --:-- ETApython3.11-setuptools-65.5.1-3.el9.noarch.rpm             17% [=========-                                               ] 1.0 MB/s | 307 kB     00:01 ETApython3.11-setuptools-65.5.1-3.el9.noarch.rpm                                                                             4.5 MB/s | 1.7 MB     00:00    
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                     4.5 MB/s | 1.7 MB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                  1/1 
+  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [                                                                                    ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=                                                                                   ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==                                                                                  ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===                                                                                 ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [====                                                                                ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=====                                                                               ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [======                                                                              ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=======                                                                             ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========                                                                            ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=========                                                                           ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==========                                                                          ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===========                                                                         ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [============                                                                        ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=============                                                                       ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==============                                                                      ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===============                                                                     ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [================                                                                    ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=================                                                                   ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==================                                                                  ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===================                                                                 ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [====================                                                                ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=====================                                                               ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [======================                                                              ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=======================                                                             ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========================                                                            ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=========================                                                           ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==========================                                                          ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===========================                                                         ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [============================                                                        ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=============================                                                       ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==============================                                                      ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===============================                                                     ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [================================                                                    ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=================================                                                   ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==================================                                                  ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===================================                                                 ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [====================================                                                ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=====================================                                               ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [======================================                                              ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=======================================                                             ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========================================                                            ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=========================================                                           ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==========================================                                          ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===========================================                                         ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [============================================                                        ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=============================================                                       ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==============================================                                      ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===============================================                                     ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [================================================                                    ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=================================================                                   ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==================================================                                  ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===================================================                                 ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [====================================================                                ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=====================================================                               ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [======================================================                              ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=======================================================                             ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========================================================                            ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=========================================================                           ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==========================================================                          ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===========================================================                         ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [============================================================                        ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=============================================================                       ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==============================================================                      ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===============================================================                     ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [================================================================                    ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=================================================================                   ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==================================================================                  ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===================================================================                 ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [====================================================================                ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=====================================================================               ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [======================================================================              ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=======================================================================             ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========================================================================            ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=========================================================================           ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==========================================================================          ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===========================================================================         ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [============================================================================        ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=============================================================================       ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==============================================================================      ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===============================================================================     ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [================================================================================    ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=================================================================================   ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==================================================================================  ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=================================================================================== ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch                                                                                        1/1 
+  Running scriptlet: python3.11-setuptools-65.5.1-3.el9.noarch                                                                                        1/1 
+  Verifying        : python3.11-setuptools-65.5.1-3.el9.noarch                                                                                        1/1 
+Installed products updated.
+
+Installed:
+  python3.11-setuptools-65.5.1-3.el9.noarch                                                                                                               
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1750204800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.o2BSI2
++ umask 022
++ cd /builddir/build/BUILD
++ cd calver-2025.4.17
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(packaging)'
++ echo 'python3.11dist(pip) >= 19'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/calver-2025.4.17/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ CC=gcc
++ CXX=g++
++ TMPDIR=/builddir/build/BUILD/calver-2025.4.17/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/calver-2025.4.17/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-calver-2025.4.17-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools from build-system.requires
+Requirement satisfied: setuptools
+   (installed: setuptools 65.5.1)
+/usr/lib/python3.11/site-packages/setuptools/config/pyprojecttoml.py:108: _BetaConfiguration: Support for `[tool.setuptools]` in `pyproject.toml` is still *beta*.
+  warnings.warn(msg, _BetaConfiguration)
+configuration error: `project.license` must be valid exactly by one definition (2 matches found):
+
+    - keys:
+        'file': {type: string}
+      required: ['file']
+    - keys:
+        'text': {type: string}
+      required: ['text']
+
+DESCRIPTION:
+    `Project license <https://www.python.org/dev/peps/pep-0621/#license>`_.
+
+GIVEN VALUE:
+    "Apache-2.0"
+
+OFFENDING RULE: 'oneOf'
+
+DEFINITION:
+    {
+        "oneOf": [
+            {
+                "properties": {
+                    "file": {
+                        "type": "string",
+                        "$$description": [
+                            "Relative path to the file (UTF-8) which contains the license for the",
+                            "project."
+                        ]
+                    }
+                },
+                "required": [
+                    "file"
+                ]
+            },
+            {
+                "properties": {
+                    "text": {
+                        "type": "string",
+                        "$$description": [
+                            "The license of the project whose meaning is that of the",
+                            "`License field from the core metadata",
+                            "<https://packaging.python.org/specifications/core-metadata/#license>`_."
+                        ]
+                    }
+                },
+                "required": [
+                    "text"
+                ]
+            }
+        ]
+    }
 Traceback (most recent call last):
   File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 721, in main
     generate_requires(
-  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 602, in generate_requires
-    backend = get_backend(requirements)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 282, in get_backend
-    backend_module = importlib.import_module(module_name)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib64/python3.11/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
-ModuleNotFoundError: No module named 'setuptools'
+  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 603, in generate_requires
+    generate_build_requirements(backend, requirements)
+  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 293, in generate_build_requirements
+    new_reqs = get_requires(config_settings=requirements.config_settings)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/setuptools/build_meta.py", line 338, in get_requires_for_build_wheel
+    return self._get_build_requires(config_settings, requirements=['wheel'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/setuptools/build_meta.py", line 320, in _get_build_requires
+    self.run_setup()
+  File "/usr/lib/python3.11/site-packages/setuptools/build_meta.py", line 335, in run_setup
+    exec(code, locals())
+  File "<string>", line 18, in <module>
+  File "/usr/lib/python3.11/site-packages/setuptools/__init__.py", line 87, in setup
+    return distutils.core.setup(**attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/setuptools/_distutils/core.py", line 159, in setup
+    dist.parse_config_files()
+  File "/usr/lib/python3.11/site-packages/setuptools/dist.py", line 868, in parse_config_files
+    pyprojecttoml.apply_configuration(self, filename, ignore_option_errors)
+  File "/usr/lib/python3.11/site-packages/setuptools/config/pyprojecttoml.py", line 62, in apply_configuration
+    config = read_configuration(filepath, True, ignore_option_errors, dist)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/setuptools/config/pyprojecttoml.py", line 126, in read_configuration
+    validate(subset, filepath)
+  File "/usr/lib/python3.11/site-packages/setuptools/config/pyprojecttoml.py", line 51, in validate
+    raise ValueError(f"{error}\n{summary}") from None
+ValueError: invalid pyproject.toml config: `project.license`.
+configuration error: `project.license` must be valid exactly by one definition (2 matches found):
+
+    - keys:
+        'file': {type: string}
+      required: ['file']
+    - keys:
+        'text': {type: string}
+      required: ['text']
+
+error: Bad exit status from /var/tmp/rpm-tmp.o2BSI2 (%generate_buildrequires)
+    Bad exit status from /var/tmp/rpm-tmp.o2BSI2 (%generate_buildrequires)
 
 
 RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.7aHdPN (%generate_buildrequires)
-    Bad exit status from /var/tmp/rpm-tmp.7aHdPN (%generate_buildrequires)
 Finish: rpmbuild python-calver-2025.4.17-1.el9.src.rpm
 Finish: build phase for python-calver-2025.4.17-1.el9.src.rpm
-ERROR: Exception(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-calver-2025.4.17-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 25 seconds
+ERROR: Exception(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-calver-2025.4.17-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 32 seconds
 INFO: Results and/or logs in: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/
 ERROR: Command failed: 
  # ['bash', '--login', '-c', '/usr/bin/rpmbuild -br --noprep --noclean --target x86_64 --nodeps /builddir/build/SPECS/python-calver.spec --nocheck']

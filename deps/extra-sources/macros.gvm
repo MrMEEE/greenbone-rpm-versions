@@ -1,0 +1,7 @@
+# macros for GVM (sub-)package building - handle with care
+
+%gvm_user        gvm
+%gvm_group       gvm
+%gvm_home        %{_localstatedir}/lib/gvm
+%gvm_runtimedir  %{_rundir}/gvm
+

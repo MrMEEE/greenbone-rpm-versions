@@ -1,0 +1,10 @@
+diff -uNr calver-2025.4.17/pyproject.toml calver-2025.4.17-fix/pyproject.toml
+--- calver-2025.4.17/pyproject.toml	2025-04-17 15:44:35.000000000 +0200
++++ calver-2025.4.17-fix/pyproject.toml	2025-06-18 15:50:02.852098900 +0200
+@@ -1,5 +1,5 @@
+ [build-system]
+-requires = ["setuptools>=77.0.1"]  # https://github.com/di/calver/pull/19
++#requires = ["setuptools>=77.0.1"]  # https://github.com/di/calver/pull/19
+ build-backend = "setuptools.build_meta"
+ 
+ [project]

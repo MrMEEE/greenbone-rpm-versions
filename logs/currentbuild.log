@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/ --resultdir /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/ --no-clean /opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/ --resultdir /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/ --no-clean /opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-calver-2025.4.17-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-calver-2025.4.17-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -34,12 +34,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-20.el9.noarch
   yum-4.14.0-25.el9.noarch
 Finish: chroot init
-Start: build phase for python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
-Start: build setup for python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
+Start: build phase for python-calver-2025.4.17-1.el9.src.rpm
+Start: build setup for python-calver-2025.4.17-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750204800
-Wrote: /builddir/build/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-calver-2025.4.17-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
-/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  490 kB/s | 3.5 kB     00:00    
+/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  800 kB/s | 3.5 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                             [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                          [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder            [         ===                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [               ===                                       ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                             88 kB/s |  41 kB     00:00    
+Red Hat Enterprise Linux - AppStream                          [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder            [         ===                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                            151 kB/s |  41 kB     00:00    
 Dependencies resolved.
 ==========================================================================================================================================================
  Package                                         Architecture               Version                           Repository                             Size
@@ -161,31 +161,33 @@ Installed:
   python3.11-setuptools-wheel-65.5.1-3.el9.noarch      
 
 Complete!
-Finish: build setup for python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
+Finish: build setup for python-calver-2025.4.17-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
+Start: rpmbuild python-calver-2025.4.17-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750204800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Mmzm0D
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.eQ09gD
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf trove_classifiers-2025.5.9.12
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/trove_classifiers-2025.5.9.12.tar.gz
++ rm -rf calver-2025.4.17
 + /usr/bin/tar -xof -
++ /usr/bin/gzip -dc /builddir/build/SOURCES/calver-2025.4.17.tar.gz
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd trove_classifiers-2025.5.9.12
++ cd calver-2025.4.17
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ /usr/bin/cat /builddir/build/SOURCES/calver-depfix.patch
++ /usr/bin/patch -p1 -s --fuzz=0 --no-backup-if-mismatch
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jgcjJv
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.zn3imD
 + umask 022
 + cd /builddir/build/BUILD
-+ cd trove_classifiers-2025.5.9.12
++ cd calver-2025.4.17
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(packaging)'
@@ -194,7 +196,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jgcjJv
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/calver-2025.4.17/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
@@ -204,17 +206,17 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jgcjJv
 + LT_SYS_LIBRARY_PATH=/usr/lib64:
 + CC=gcc
 + CXX=g++
-+ TMPDIR=/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/calver-2025.4.17/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/trove_classifiers-2025.5.9.12/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/calver-2025.4.17/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-calver-2025.4.17-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
-+ cat /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-calver-2025.4.17-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-calver-2025.4.17-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -223,10 +225,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                             [===                                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                             [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                          [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder            [         ===                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         25 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                            336 kB/s |  41 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                             [===                                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                          [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       25 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder            [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                [         ===                                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                             68 kB/s |  41 kB     00:00    
 Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
@@ -272,10 +274,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750204800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.nYi8EA
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.7aHdPN
 + umask 022
 + cd /builddir/build/BUILD
-+ cd trove_classifiers-2025.5.9.12
++ cd calver-2025.4.17
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(packaging)'
@@ -284,7 +286,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.nYi8EA
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/calver-2025.4.17/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
@@ -294,64 +296,39 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.nYi8EA
 + LT_SYS_LIBRARY_PATH=/usr/lib64:
 + CC=gcc
 + CXX=g++
-+ TMPDIR=/builddir/build/BUILD/trove_classifiers-2025.5.9.12/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/calver-2025.4.17/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/trove_classifiers-2025.5.9.12/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools from build-system.requires
-Requirement not satisfied: setuptools
-Handling calver from build-system.requires
-Requirement not satisfied: calver
-Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-trove-classifiers-2025.5.9.12-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv '*.dist-info/'
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Wrote: /builddir/build/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.buildreqs.nosrc.rpm
-INFO: Going to install missing dynamic buildrequires
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/calver-2025.4.17/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-calver-2025.4.17-1.el9.x86_64-3.11-pyproject-buildrequires
+Traceback (most recent call last):
+  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 721, in main
+    generate_requires(
+  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 602, in generate_requires
+    backend = get_backend(requirements)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 282, in get_backend
+    backend_module = importlib.import_module(module_name)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1126, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'setuptools'
 
-This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                      [===                                                      ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                             [===                                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                          17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                          [   ===                                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                       24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder            [      ===                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                         23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                [         ===                                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                [            ===                                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                             62 kB/s |  41 kB     00:00    
-Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
-Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(calver)'
-Package python3.11-packaging-21.3-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
-Finish: build phase for python-trove-classifiers-2025.5.9.12-1.el9.src.rpm
-ERROR: Exception(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 30 seconds
+RPM build errors:
+error: Bad exit status from /var/tmp/rpm-tmp.7aHdPN (%generate_buildrequires)
+    Bad exit status from /var/tmp/rpm-tmp.7aHdPN (%generate_buildrequires)
+Finish: rpmbuild python-calver-2025.4.17-1.el9.src.rpm
+Finish: build phase for python-calver-2025.4.17-1.el9.src.rpm
+ERROR: Exception(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-calver-2025.4.17-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 25 seconds
 INFO: Results and/or logs in: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M d903dd2981c74116bfb80a644fc43146 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.s67ehmsx:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-trove-classifiers-2025.5.9.12-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
-
-This system is not registered with an entitlement server. You can use subscription-manager to register.
-
-/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                          17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                       24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                         23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                             62 kB/s |  41 kB     00:00    
-Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
-Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(calver)'
-Package python3.11-packaging-21.3-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
+ # ['bash', '--login', '-c', '/usr/bin/rpmbuild -br --noprep --noclean --target x86_64 --nodeps /builddir/build/SPECS/python-calver.spec --nocheck']
 

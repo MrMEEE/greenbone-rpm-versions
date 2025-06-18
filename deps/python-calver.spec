@@ -15,7 +15,7 @@ Source:         %{pypi_source calver}
 BuildArch:      noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
-
+Patch:		calver-depfix.patch
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:

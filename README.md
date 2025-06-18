@@ -1,7 +1,7 @@
 ## Latest build
 The lastest package built was python-gvm-26.2.0-1.el9.src.rpm
 
-The build completed at Wed Jun 18 02:17:57 PM CEST 2025
+The build completed at Wed Jun 18 02:33:30 PM CEST 2025
 
 The build was unsuccessful.
 

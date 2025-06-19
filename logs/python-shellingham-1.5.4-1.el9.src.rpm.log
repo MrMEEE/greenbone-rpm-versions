@@ -601,3 +601,9 @@ Finish: build phase for python-shellingham-1.5.4-1.el9.src.rpm
 INFO: Done(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-shellingham-1.5.4-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 24 seconds
 INFO: Results and/or logs in: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/
 Finish: run
+Directory walk started
+Directory walk done - 9 packages
+Temporary output repo path: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/.repodata/
+Preparing sqlite DBs
+Pool started (with 5 workers)
+Pool finished

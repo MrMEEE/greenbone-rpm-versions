@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-requests-toolbelt-1.0.0-1.el9.src.rpm
+The lastest package built was python-shellingham-1.5.4-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:26:24 AM CEST 2025
+The build completed at Thu Jun 19 02:26:53 AM CEST 2025
 
 The build was successful.
 
-[Build Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -27,9 +27,9 @@ python3.11-poetry-core-2.1.3-1.el9 | python-poetry-core-2.1.3-1.el9.src.rpm | Bu
 python3.11-pyproject-hooks-1.2.0-1.el9 | python-pyproject-hooks-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.2.0-1.el9.src.rpm.log)
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
 python3.11-setuptools-80.9.0-1.el9 | python-setuptools-80.9.0-1.el9.src.rpm | Built | [Log](logs/python-setuptools-80.9.0-1.el9.src.rpm.log)
-python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | **Missing** |
+python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
 python3.11-tomlkit-0.13.3-1.el9 | python-tomlkit-0.13.3-1.el9.src.rpm | **Missing** |
 python3.11-trove-classifiers-2025.5.9.12-1.el9 | python-trove-classifiers-2025.5.9.12-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm.log)
 python3.11-virtualenv-20.31.2-1.el9 | python-virtualenv-20.31.2-1.el9.src.rpm | **Missing** |
 
-22 total packages, 8 packages built successfully, 14 packages left to fix
+22 total packages, 9 packages built successfully, 13 packages left to fix

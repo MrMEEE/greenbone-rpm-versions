@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-setuptools-scm-8.3.1-1.el9.src.rpm
+The lastest package built was python-setuptools-rust-1.11.1-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:59:34 AM CEST 2025
+The build completed at Thu Jun 19 03:00:34 AM CEST 2025
 
 The build was successful.
 
-[Build Log](logs/python-setuptools-scm-8.3.1-1.el9.src.rpm.log)
+[Build Log](logs/python-setuptools-rust-1.11.1-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -39,11 +39,11 @@ python3.11-pyproject-hooks-1.2.0-1.el9 | python-pyproject-hooks-1.2.0-1.el9.src.
 python3.11-rapidfuzz-3.13.0-1.el9 | python-rapidfuzz-3.13.0-1.el9.src.rpm | **Missing** |
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
 python3.11-setuptools-80.9.0-1.el9 | python-setuptools-80.9.0-1.el9.src.rpm | Built | [Log](logs/python-setuptools-80.9.0-1.el9.src.rpm.log)
-python3.11-setuptools-rust-1.11.1-1.el9 | python-setuptools-rust-1.11.1-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-rust-1.11.1-1.el9.src.rpm.log)
+python3.11-setuptools-rust-1.11.1-1.el9 | python-setuptools-rust-1.11.1-1.el9.src.rpm | Built | [Log](logs/python-setuptools-rust-1.11.1-1.el9.src.rpm.log)
 python3.11-setuptools-scm-8.3.1-1.el9 | python-setuptools-scm-8.3.1-1.el9.src.rpm | Built | [Log](logs/python-setuptools-scm-8.3.1-1.el9.src.rpm.log)
 python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
 python3.11-tomlkit-0.13.3-1.el9 | python-tomlkit-0.13.3-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.13.3-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2025.5.9.12-1.el9 | python-trove-classifiers-2025.5.9.12-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm.log)
 python3.11-virtualenv-20.31.2-1.el9 | python-virtualenv-20.31.2-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.31.2-1.el9.src.rpm.log)
 
-36 total packages, 20 packages built successfully, 16 packages left to fix
+36 total packages, 21 packages built successfully, 15 packages left to fix

@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cleo-2.1.0-1.el9.src.rpm
+The lastest package built was python-dulwich-0.22.8-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:21:59 AM CEST 2025
+The build completed at Thu Jun 19 02:22:57 AM CEST 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-dulwich-0.22.8-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -13,7 +13,7 @@ python3.11-build-1.2.2^post1-1.el9 | python-build-1.2.2^post1-1.el9.src.rpm | **
 python3.11-cachecontrol-0.14.3-1.el9 | python-cachecontrol-0.14.3-1.el9.src.rpm | **Missing** | [Log](logs/python-cachecontrol-0.14.3-1.el9.src.rpm.log)
 python3.11-calver-2025.4.17-1.el9 | python-calver-2025.4.17-1.el9.src.rpm | Built | [Log](logs/python-calver-2025.4.17-1.el9.src.rpm.log)
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
-python3.11-dulwich-0.22.8-1.el9 | python-dulwich-0.22.8-1.el9.src.rpm | **Missing** |
+python3.11-dulwich-0.22.8-1.el9 | python-dulwich-0.22.8-1.el9.src.rpm | **Missing** | [Log](logs/python-dulwich-0.22.8-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.21.1-1.el9 | python-fastjsonschema-2.21.1-1.el9.src.rpm | **Missing** |
 python3.11-findpython3.11-0.6.3-1.el9 | python-findpython-0.6.3-1.el9.src.rpm | **Missing** |
 python3.11-gvm-26.2.0-1.el9 | python-gvm-26.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-gvm-26.2.0-1.el9.src.rpm.log)

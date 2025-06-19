@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-flit-core-3.12.0-1.el9.src.rpm
+The lastest package built was python-gvm-26.2.0-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:35:23 AM CEST 2025
+The build completed at Thu Jun 19 02:35:43 AM CEST 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-flit-core-3.12.0-1.el9.src.rpm.log)
+[Build Log](logs/python-gvm-26.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-installer-0.7.0-1.el9.src.rpm
+The lastest package built was python-pbs-installer-2025.6.12-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:24:16 AM CEST 2025
+The build completed at Thu Jun 19 02:24:34 AM CEST 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pbs-installer-2025.6.12-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -19,7 +19,7 @@ python3.11-findpython3.11-0.6.3-1.el9 | python-findpython-0.6.3-1.el9.src.rpm | 
 python3.11-gvm-26.2.0-1.el9 | python-gvm-26.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-gvm-26.2.0-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
 python3.11-packaging-25.0-1.el9 | python-packaging-25.0-1.el9.src.rpm | Built | [Log](logs/python-packaging-25.0-1.el9.src.rpm.log)
-python3.11-pbs-installer-2025.6.12-1.el9 | python-pbs-installer-2025.6.12-1.el9.src.rpm | **Missing** |
+python3.11-pbs-installer-2025.6.12-1.el9 | python-pbs-installer-2025.6.12-1.el9.src.rpm | **Missing** | [Log](logs/python-pbs-installer-2025.6.12-1.el9.src.rpm.log)
 python3.11-pkginfo-1.12.1.2-1.el9 | python-pkginfo-1.12.1.2-1.el9.src.rpm | **Missing** |
 python3.11-platformdirs-4.3.8-1.el9 | python-platformdirs-4.3.8-1.el9.src.rpm | **Missing** |
 python3.11-poetry-2.1.3-1.el9 | python-poetry-2.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-2.1.3-1.el9.src.rpm.log)

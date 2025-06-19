@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-poetry-2.1.3-1.el9.src.rpm
+The lastest package built was python-virtualenv-20.31.2-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:32:20 AM CEST 2025
+The build completed at Thu Jun 19 02:32:41 AM CEST 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-poetry-2.1.3-1.el9.src.rpm.log)
+[Build Log](logs/python-virtualenv-20.31.2-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

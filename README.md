@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pkginfo-1.12.1.2-1.el9.src.rpm
+The lastest package built was python-platformdirs-4.3.8-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:24:52 AM CEST 2025
+The build completed at Thu Jun 19 02:25:10 AM CEST 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pkginfo-1.12.1.2-1.el9.src.rpm.log)
+[Build Log](logs/python-platformdirs-4.3.8-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -21,7 +21,7 @@ python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built 
 python3.11-packaging-25.0-1.el9 | python-packaging-25.0-1.el9.src.rpm | Built | [Log](logs/python-packaging-25.0-1.el9.src.rpm.log)
 python3.11-pbs-installer-2025.6.12-1.el9 | python-pbs-installer-2025.6.12-1.el9.src.rpm | **Missing** | [Log](logs/python-pbs-installer-2025.6.12-1.el9.src.rpm.log)
 python3.11-pkginfo-1.12.1.2-1.el9 | python-pkginfo-1.12.1.2-1.el9.src.rpm | **Missing** | [Log](logs/python-pkginfo-1.12.1.2-1.el9.src.rpm.log)
-python3.11-platformdirs-4.3.8-1.el9 | python-platformdirs-4.3.8-1.el9.src.rpm | **Missing** |
+python3.11-platformdirs-4.3.8-1.el9 | python-platformdirs-4.3.8-1.el9.src.rpm | **Missing** | [Log](logs/python-platformdirs-4.3.8-1.el9.src.rpm.log)
 python3.11-poetry-2.1.3-1.el9 | python-poetry-2.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-2.1.3-1.el9.src.rpm.log)
 python3.11-poetry-core-2.1.3-1.el9 | python-poetry-core-2.1.3-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-2.1.3-1.el9.src.rpm.log)
 python3.11-pyproject-hooks-1.2.0-1.el9 | python-pyproject-hooks-1.2.0-1.el9.src.rpm | **Missing** |

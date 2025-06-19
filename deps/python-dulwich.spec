@@ -1,3 +1,4 @@
+%global debug_package %{nil}
 
 %global python3_pkgversion 3.11
 

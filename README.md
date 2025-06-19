@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-gssapi-1.9.0-1.el9.src.rpm
+The lastest package built was python-bcrypt-4.3.0-1.el9.src.rpm
 
-The build completed at Thu Jun 19 03:06:41 AM CEST 2025
+The build completed at Thu Jun 19 03:07:39 AM CEST 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-gssapi-1.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-bcrypt-4.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

@@ -40,3 +40,5 @@ bcrypt
 gssapi
 invoke
 pynacl
+cython
+setuptools-rust

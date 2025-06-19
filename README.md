@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-findpython-0.6.3-1.el9.src.rpm
+The lastest package built was python-gvm-26.2.0-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:23:34 AM CEST 2025
+The build completed at Thu Jun 19 02:23:52 AM CEST 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-findpython-0.6.3-1.el9.src.rpm.log)
+[Build Log](logs/python-gvm-26.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

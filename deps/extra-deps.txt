@@ -36,3 +36,7 @@ rapidfuzz
 hatchling
 hatch-vcs
 paramiko
+bcrypt
+gssapi
+invoke
+pynacl

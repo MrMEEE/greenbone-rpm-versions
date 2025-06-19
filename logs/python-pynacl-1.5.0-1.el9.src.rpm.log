@@ -2794,3 +2794,9 @@ Finish: build phase for python-pynacl-1.5.0-1.el9.src.rpm
 INFO: Done(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-pynacl-1.5.0-1.el9.src.rpm) Config(epel-9-x86_64) 7 minutes 10 seconds
 INFO: Results and/or logs in: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/
 Finish: run
+Directory walk started
+Directory walk done - 21 packages
+Temporary output repo path: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/.repodata/
+Preparing sqlite DBs
+Pool started (with 5 workers)
+Pool finished

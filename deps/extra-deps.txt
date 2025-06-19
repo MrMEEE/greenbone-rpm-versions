@@ -44,3 +44,4 @@ cython
 setuptools-rust
 setuptools-scm
 gssapi
+paramiko

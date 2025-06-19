@@ -45,11 +45,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                     [===                                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                                                                               2.9 MB/s | 3.0 kB     00:00    
-/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                     [===                                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                                                                               2.9 MB/s |  15 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                            [   ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                       22 kB/s | 4.1 kB     00:00    
+/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                     [===                                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                                                                               4.8 MB/s |  17 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                            [   ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                       19 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                                         [      ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                    24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                           [         ===                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                      24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                               [            ===                                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                               [               ===                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                          68 kB/s |  42 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                           [         ===                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                      21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                               [            ===                                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                         319 kB/s |  42 kB     00:00    
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
 Dependencies resolved.
@@ -62,13 +62,13 @@ Start: rpmbuild python-dulwich-0.22.8-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750291200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.AG8co9
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.5lguDy
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf dulwich-0.22.8
-+ /usr/bin/tar -xof -
 + /usr/bin/gzip -dc /builddir/build/SOURCES/dulwich-0.22.8.tar.gz
++ /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd dulwich-0.22.8
@@ -76,7 +76,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.AG8co9
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.PUPXD7
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.bl4OPq
 + umask 022
 + cd /builddir/build/BUILD
 + cd dulwich-0.22.8
@@ -211,10 +211,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                     [===                                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                                                                               2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                            [===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                       22 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                         [   ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                    23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                           [      ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                      24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                               [         ===                                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                               [            ===                                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                          64 kB/s |  42 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                            [===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                       20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                         [   ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                    18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                           [      ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                      19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                               [         ===                                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                               [            ===                                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                          88 kB/s |  42 kB     00:00    
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
@@ -230,7 +230,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750291200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.o2HXMu
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GWjv1G
 + umask 022
 + cd /builddir/build/BUILD
 + cd dulwich-0.22.8
@@ -356,7 +356,7 @@ removed directory 'dulwich-0.22.8.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.NbKnOd
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.ev87KG
 + umask 022
 + cd /builddir/build/BUILD
 + cd dulwich-0.22.8
@@ -432,19 +432,19 @@ Processing /builddir/build/BUILD/dulwich-0.22.8
   !!
     self._finalize_license_expression()
   running dist_info
-  creating /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-x0ghkply/dulwich.egg-info
-  writing /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-x0ghkply/dulwich.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-x0ghkply/dulwich.egg-info/dependency_links.txt
-  writing entry points to /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-x0ghkply/dulwich.egg-info/entry_points.txt
-  writing requirements to /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-x0ghkply/dulwich.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-x0ghkply/dulwich.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-x0ghkply/dulwich.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-x0ghkply/dulwich.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-fco3j7ko/dulwich.egg-info
+  writing /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-fco3j7ko/dulwich.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-fco3j7ko/dulwich.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-fco3j7ko/dulwich.egg-info/entry_points.txt
+  writing requirements to /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-fco3j7ko/dulwich.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-fco3j7ko/dulwich.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-fco3j7ko/dulwich.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-fco3j7ko/dulwich.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
   warning: no files found matching 'README.swift.rst'
   adding license file 'COPYING'
-  writing manifest file '/builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-x0ghkply/dulwich.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-x0ghkply/dulwich-0.22.8.dist-info'
+  writing manifest file '/builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-fco3j7ko/dulwich.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-modern-metadata-fco3j7ko/dulwich-0.22.8.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: dulwich
   Building wheel for dulwich (pyproject.toml): started
@@ -650,74 +650,74 @@ Building wheels for collected packages: dulwich
   cargo rustc --lib --message-format=json-render-diagnostics --manifest-path crates/objects/Cargo.toml --release -v --features pyo3/extension-module -- --crate-type cdylib
       Updating crates.io index
    Downloading crates ...
-    Downloaded cfg-if v1.0.0
     Downloaded memoffset v0.9.1
-    Downloaded autocfg v1.4.0
     Downloaded once_cell v1.20.3
-    Downloaded unindent v0.2.3
     Downloaded indoc v2.0.5
+    Downloaded cfg-if v1.0.0
     Downloaded heck v0.5.0
+    Downloaded unindent v0.2.3
+    Downloaded autocfg v1.4.0
     Downloaded pyo3-macros v0.23.5
     Downloaded quote v1.0.38
     Downloaded target-lexicon v0.12.16
-    Downloaded memchr v2.7.4
-    Downloaded unicode-ident v1.0.17
+    Downloaded pyo3-build-config v0.23.5
     Downloaded proc-macro2 v1.0.93
+    Downloaded unicode-ident v1.0.17
     Downloaded pyo3-macros-backend v0.23.5
     Downloaded pyo3-ffi v0.23.5
+    Downloaded memchr v2.7.4
     Downloaded syn v2.0.98
     Downloaded pyo3 v0.23.5
     Downloaded libc v0.2.170
-    Downloaded pyo3-build-config v0.23.5
      Compiling target-lexicon v0.12.16
      Compiling once_cell v1.20.3
      Compiling proc-macro2 v1.0.93
      Compiling unicode-ident v1.0.17
        Running `rustc --crate-name build_script_build --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("arch_zkasm", "default", "serde", "serde_support", "std"))' -C metadata=c9d0af48aaaae7f3 -C extra-filename=-c9d0af48aaaae7f3 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/build/target-lexicon-c9d0af48aaaae7f3 -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
        Running `rustc --crate-name once_cell --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/once_cell-1.20.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="alloc"' --cfg 'feature="default"' --cfg 'feature="race"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("alloc", "atomic-polyfill", "critical-section", "default", "parking_lot", "portable-atomic", "race", "std", "unstable"))' -C metadata=0932eb9ea1d12513 -C extra-filename=-0932eb9ea1d12513 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
-       Running `rustc --crate-name unicode_ident --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-ident-1.0.17/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values())' -C metadata=010d85f0229e1592 -C extra-filename=-010d85f0229e1592 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
        Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-1.0.93/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="proc-macro"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("default", "nightly", "proc-macro", "span-locations"))' -C metadata=3f3c0c92b8479289 -C extra-filename=-3f3c0c92b8479289 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/build/proc-macro2-3f3c0c92b8479289 -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
-     Compiling libc v0.2.170
-       Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.170/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("align", "const-extern-fn", "default", "extra_traits", "rustc-dep-of-std", "rustc-std-workspace-core", "std", "use_std"))' -C metadata=b4cc78d201699f7b -C extra-filename=-b4cc78d201699f7b --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/build/libc-b4cc78d201699f7b -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
+       Running `rustc --crate-name unicode_ident --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-ident-1.0.17/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values())' -C metadata=010d85f0229e1592 -C extra-filename=-010d85f0229e1592 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
      Compiling autocfg v1.4.0
        Running `rustc --crate-name autocfg --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values())' -C metadata=60fc65fc8622e063 -C extra-filename=-60fc65fc8622e063 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
+     Compiling libc v0.2.170
+       Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.170/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("align", "const-extern-fn", "default", "extra_traits", "rustc-dep-of-std", "rustc-std-workspace-core", "std", "use_std"))' -C metadata=b4cc78d201699f7b -C extra-filename=-b4cc78d201699f7b --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/build/libc-b4cc78d201699f7b -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
        Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/proc-macro2-3f3c0c92b8479289/build-script-build`
-       Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/libc-b4cc78d201699f7b/build-script-build`
        Running `rustc --crate-name proc_macro2 --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-1.0.93/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="proc-macro"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("default", "nightly", "proc-macro", "span-locations"))' -C metadata=baf423cea9049fd8 -C extra-filename=-baf423cea9049fd8 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern unicode_ident=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libunicode_ident-010d85f0229e1592.rmeta --cap-lints allow --cfg wrap_proc_macro --check-cfg 'cfg(fuzzing)' --check-cfg 'cfg(no_is_available)' --check-cfg 'cfg(no_literal_byte_character)' --check-cfg 'cfg(no_literal_c_string)' --check-cfg 'cfg(no_source_text)' --check-cfg 'cfg(proc_macro_span)' --check-cfg 'cfg(procmacro2_backtrace)' --check-cfg 'cfg(procmacro2_nightly_testing)' --check-cfg 'cfg(procmacro2_semver_exempt)' --check-cfg 'cfg(randomize_layout)' --check-cfg 'cfg(span_locations)' --check-cfg 'cfg(super_unstable)' --check-cfg 'cfg(wrap_proc_macro)'`
-     Compiling heck v0.5.0
-       Running `rustc --crate-name heck --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/heck-0.5.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values())' -C metadata=7fa6d918410f1098 -C extra-filename=-7fa6d918410f1098 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
        Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/target-lexicon-c9d0af48aaaae7f3/build-script-build`
        Running `rustc --crate-name target_lexicon --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("arch_zkasm", "default", "serde", "serde_support", "std"))' -C metadata=0f27e0391cd45204 -C extra-filename=-0f27e0391cd45204 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow --cfg 'feature="rust_1_40"'`
-       Running `rustc --crate-name libc --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.170/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="default"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("align", "const-extern-fn", "default", "extra_traits", "rustc-dep-of-std", "rustc-std-workspace-core", "std", "use_std"))' -C metadata=4fdf7774c11f5fdc -C extra-filename=-4fdf7774c11f5fdc --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow --cfg freebsd11 --cfg libc_const_extern_fn --check-cfg 'cfg(emscripten_old_stat_abi)' --check-cfg 'cfg(espidf_time32)' --check-cfg 'cfg(freebsd10)' --check-cfg 'cfg(freebsd11)' --check-cfg 'cfg(freebsd12)' --check-cfg 'cfg(freebsd13)' --check-cfg 'cfg(freebsd14)' --check-cfg 'cfg(freebsd15)' --check-cfg 'cfg(libc_const_extern_fn)' --check-cfg 'cfg(libc_deny_warnings)' --check-cfg 'cfg(libc_thread_local)' --check-cfg 'cfg(libc_ctest)' --check-cfg 'cfg(linux_time_bits64)' --check-cfg 'cfg(target_os,values("switch","aix","ohos","hurd","rtems","visionos","nuttx"))' --check-cfg 'cfg(target_env,values("illumos","wasi","aix","ohos"))' --check-cfg 'cfg(target_arch,values("loongarch64","mips32r6","mips64r6","csky"))'`
+       Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/libc-b4cc78d201699f7b/build-script-build`
+     Compiling heck v0.5.0
+       Running `rustc --crate-name heck --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/heck-0.5.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values())' -C metadata=7fa6d918410f1098 -C extra-filename=-7fa6d918410f1098 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
      Compiling memoffset v0.9.1
        Running `rustc --crate-name build_script_build --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("default", "unstable_const", "unstable_offset_of"))' -C metadata=19765168afc63db4 -C extra-filename=-19765168afc63db4 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/build/memoffset-19765168afc63db4 -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern autocfg=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libautocfg-60fc65fc8622e063.rlib --cap-lints allow`
+       Running `rustc --crate-name libc --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.170/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="default"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("align", "const-extern-fn", "default", "extra_traits", "rustc-dep-of-std", "rustc-std-workspace-core", "std", "use_std"))' -C metadata=4fdf7774c11f5fdc -C extra-filename=-4fdf7774c11f5fdc --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow --cfg freebsd11 --cfg libc_const_extern_fn --check-cfg 'cfg(emscripten_old_stat_abi)' --check-cfg 'cfg(espidf_time32)' --check-cfg 'cfg(freebsd10)' --check-cfg 'cfg(freebsd11)' --check-cfg 'cfg(freebsd12)' --check-cfg 'cfg(freebsd13)' --check-cfg 'cfg(freebsd14)' --check-cfg 'cfg(freebsd15)' --check-cfg 'cfg(libc_const_extern_fn)' --check-cfg 'cfg(libc_deny_warnings)' --check-cfg 'cfg(libc_thread_local)' --check-cfg 'cfg(libc_ctest)' --check-cfg 'cfg(linux_time_bits64)' --check-cfg 'cfg(target_os,values("switch","aix","ohos","hurd","rtems","visionos","nuttx"))' --check-cfg 'cfg(target_env,values("illumos","wasi","aix","ohos"))' --check-cfg 'cfg(target_arch,values("loongarch64","mips32r6","mips64r6","csky"))'`
+       Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/memoffset-19765168afc63db4/build-script-build`
      Compiling pyo3-build-config v0.23.5
        Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.5/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="resolve-config"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("abi3", "abi3-py310", "abi3-py311", "abi3-py312", "abi3-py37", "abi3-py38", "abi3-py39", "default", "extension-module", "python3-dll-a", "resolve-config"))' -C metadata=5c7fbfc1c56d4b1a -C extra-filename=-5c7fbfc1c56d4b1a --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/build/pyo3-build-config-5c7fbfc1c56d4b1a -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern target_lexicon=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libtarget_lexicon-0f27e0391cd45204.rlib --cap-lints allow`
      Compiling quote v1.0.38
        Running `rustc --crate-name quote --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.38/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="proc-macro"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("default", "proc-macro"))' -C metadata=8cd8c0208400f4af -C extra-filename=-8cd8c0208400f4af --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern proc_macro2=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libproc_macro2-baf423cea9049fd8.rmeta --cap-lints allow`
      Compiling syn v2.0.98
        Running `rustc --crate-name syn --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syn-2.0.98/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="clone-impls"' --cfg 'feature="default"' --cfg 'feature="derive"' --cfg 'feature="extra-traits"' --cfg 'feature="full"' --cfg 'feature="parsing"' --cfg 'feature="printing"' --cfg 'feature="proc-macro"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("clone-impls", "default", "derive", "extra-traits", "fold", "full", "parsing", "printing", "proc-macro", "test", "visit", "visit-mut"))' -C metadata=4030bcd796a98a79 -C extra-filename=-4030bcd796a98a79 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern proc_macro2=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libproc_macro2-baf423cea9049fd8.rmeta --extern quote=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libquote-8cd8c0208400f4af.rmeta --extern unicode_ident=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libunicode_ident-010d85f0229e1592.rmeta --cap-lints allow`
-       Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/memoffset-19765168afc63db4/build-script-build`
        Running `rustc --crate-name memoffset --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="default"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("default", "unstable_const", "unstable_offset_of"))' -C metadata=1ed42175b60d5890 -C extra-filename=-1ed42175b60d5890 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow --cfg tuple_ty --cfg allow_clippy --cfg maybe_uninit --cfg doctests --cfg raw_ref_macros --cfg stable_const --cfg stable_offset_of`
-     Compiling indoc v2.0.5
-       Running `rustc --crate-name indoc --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/indoc-2.0.5/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type proc-macro --emit=dep-info,link -C prefer-dynamic -C embed-bitcode=no -C debug-assertions=off --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values())' -C metadata=557648bf2219b690 -C extra-filename=-557648bf2219b690 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern proc_macro --cap-lints allow`
-     Compiling unindent v0.2.3
-       Running `rustc --crate-name unindent --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unindent-0.2.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values())' -C metadata=df25e5f7647c58f1 -C extra-filename=-df25e5f7647c58f1 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
-       Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/pyo3-build-config-5c7fbfc1c56d4b1a/build-script-build`
-       Running `rustc --crate-name pyo3_build_config --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.5/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="resolve-config"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("abi3", "abi3-py310", "abi3-py311", "abi3-py312", "abi3-py37", "abi3-py38", "abi3-py39", "default", "extension-module", "python3-dll-a", "resolve-config"))' -C metadata=81c76d1f170fec31 -C extra-filename=-81c76d1f170fec31 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern once_cell=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libonce_cell-0932eb9ea1d12513.rmeta --extern target_lexicon=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libtarget_lexicon-0f27e0391cd45204.rmeta --cap-lints allow`
+       Running `rustc --crate-name once_cell --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/once_cell-1.20.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="alloc"' --cfg 'feature="default"' --cfg 'feature="race"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("alloc", "atomic-polyfill", "critical-section", "default", "parking_lot", "portable-atomic", "race", "std", "unstable"))' -C metadata=613fb0dd1fe1943f -C extra-filename=-613fb0dd1fe1943f --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
      Compiling cfg-if v1.0.0
        Running `rustc --crate-name cfg_if --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cfg-if-1.0.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("compiler_builtins", "core", "rustc-dep-of-std"))' -C metadata=9032114c3b5a7121 -C extra-filename=-9032114c3b5a7121 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
-       Running `rustc --crate-name once_cell --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/once_cell-1.20.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="alloc"' --cfg 'feature="default"' --cfg 'feature="race"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("alloc", "atomic-polyfill", "critical-section", "default", "parking_lot", "portable-atomic", "race", "std", "unstable"))' -C metadata=613fb0dd1fe1943f -C extra-filename=-613fb0dd1fe1943f --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
+     Compiling indoc v2.0.5
+       Running `rustc --crate-name indoc --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/indoc-2.0.5/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type proc-macro --emit=dep-info,link -C prefer-dynamic -C embed-bitcode=no -C debug-assertions=off --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values())' -C metadata=557648bf2219b690 -C extra-filename=-557648bf2219b690 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern proc_macro --cap-lints allow`
+       Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/pyo3-build-config-5c7fbfc1c56d4b1a/build-script-build`
+     Compiling unindent v0.2.3
+       Running `rustc --crate-name unindent --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unindent-0.2.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values())' -C metadata=df25e5f7647c58f1 -C extra-filename=-df25e5f7647c58f1 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
+       Running `rustc --crate-name pyo3_build_config --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.5/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="resolve-config"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("abi3", "abi3-py310", "abi3-py311", "abi3-py312", "abi3-py37", "abi3-py38", "abi3-py39", "default", "extension-module", "python3-dll-a", "resolve-config"))' -C metadata=81c76d1f170fec31 -C extra-filename=-81c76d1f170fec31 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern once_cell=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libonce_cell-0932eb9ea1d12513.rmeta --extern target_lexicon=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libtarget_lexicon-0f27e0391cd45204.rmeta --cap-lints allow`
      Compiling memchr v2.7.4
        Running `rustc --crate-name memchr --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memchr-2.7.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="alloc"' --cfg 'feature="default"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("alloc", "compiler_builtins", "core", "default", "libc", "logging", "rustc-dep-of-std", "std", "use_std"))' -C metadata=de9e3e1179a321f4 -C extra-filename=-de9e3e1179a321f4 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --cap-lints allow`
-     Compiling pyo3-ffi v0.23.5
-       Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-ffi-0.23.5/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no --warn=rust_2018_idioms '--warn=clippy::useless_transmute' '--warn=clippy::used_underscore_binding' --warn=unused_lifetimes '--warn=clippy::unnecessary_wraps' '--warn=clippy::todo' --warn=rust_2021_prelude_collisions '--warn=clippy::manual_ok_or' '--warn=clippy::manual_assert' '--warn=clippy::let_unit_value' --warn=invalid_doc_attributes '--warn=clippy::flat_map_option' '--warn=clippy::filter_map_next' '--warn=clippy::explicit_iter_loop' '--warn=clippy::explicit_into_iter_loop' --warn=elided_lifetimes_in_paths '--warn=clippy::dbg_macro' '--warn=clippy::checked_conversions' '--warn=rustdoc::broken_intra_doc_links' '--warn=rustdoc::bare_urls' -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="extension-module"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("abi3", "abi3-py310", "abi3-py311", "abi3-py312", "abi3-py37", "abi3-py38", "abi3-py39", "default", "extension-module", "generate-import-lib"))' -C metadata=63376036fa5ff2c1 -C extra-filename=-63376036fa5ff2c1 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/build/pyo3-ffi-63376036fa5ff2c1 -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern pyo3_build_config=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libpyo3_build_config-81c76d1f170fec31.rlib --cap-lints allow`
      Compiling pyo3-macros-backend v0.23.5
        Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-macros-backend-0.23.5/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no --warn=rust_2018_idioms '--warn=clippy::useless_transmute' '--warn=clippy::used_underscore_binding' --warn=unused_lifetimes '--warn=clippy::unnecessary_wraps' '--warn=clippy::todo' --warn=rust_2021_prelude_collisions '--warn=clippy::manual_ok_or' '--warn=clippy::manual_assert' '--warn=clippy::let_unit_value' --warn=invalid_doc_attributes '--warn=clippy::flat_map_option' '--warn=clippy::filter_map_next' '--warn=clippy::explicit_iter_loop' '--warn=clippy::explicit_into_iter_loop' --warn=elided_lifetimes_in_paths '--warn=clippy::dbg_macro' '--warn=clippy::checked_conversions' '--warn=rustdoc::broken_intra_doc_links' '--warn=rustdoc::bare_urls' -C debug-assertions=off --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("experimental-async"))' -C metadata=3dd47837985540d0 -C extra-filename=-3dd47837985540d0 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/build/pyo3-macros-backend-3dd47837985540d0 -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern pyo3_build_config=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libpyo3_build_config-81c76d1f170fec31.rlib --cap-lints allow`
-       Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/pyo3-ffi-63376036fa5ff2c1/build-script-build`
+     Compiling pyo3-ffi v0.23.5
+       Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-ffi-0.23.5/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no --warn=rust_2018_idioms '--warn=clippy::useless_transmute' '--warn=clippy::used_underscore_binding' --warn=unused_lifetimes '--warn=clippy::unnecessary_wraps' '--warn=clippy::todo' --warn=rust_2021_prelude_collisions '--warn=clippy::manual_ok_or' '--warn=clippy::manual_assert' '--warn=clippy::let_unit_value' --warn=invalid_doc_attributes '--warn=clippy::flat_map_option' '--warn=clippy::filter_map_next' '--warn=clippy::explicit_iter_loop' '--warn=clippy::explicit_into_iter_loop' --warn=elided_lifetimes_in_paths '--warn=clippy::dbg_macro' '--warn=clippy::checked_conversions' '--warn=rustdoc::broken_intra_doc_links' '--warn=rustdoc::bare_urls' -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="extension-module"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("abi3", "abi3-py310", "abi3-py311", "abi3-py312", "abi3-py37", "abi3-py38", "abi3-py39", "default", "extension-module", "generate-import-lib"))' -C metadata=63376036fa5ff2c1 -C extra-filename=-63376036fa5ff2c1 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/build/pyo3-ffi-63376036fa5ff2c1 -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern pyo3_build_config=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libpyo3_build_config-81c76d1f170fec31.rlib --cap-lints allow`
        Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/pyo3-macros-backend-3dd47837985540d0/build-script-build`
      Compiling pyo3 v0.23.5
        Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-0.23.5/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no --warn=rust_2018_idioms '--warn=clippy::useless_transmute' '--warn=clippy::used_underscore_binding' --warn=unused_lifetimes '--warn=clippy::unnecessary_wraps' '--warn=clippy::todo' --warn=rust_2021_prelude_collisions '--warn=clippy::manual_ok_or' '--warn=clippy::manual_assert' '--warn=clippy::let_unit_value' --warn=invalid_doc_attributes '--warn=clippy::flat_map_option' '--warn=clippy::filter_map_next' '--warn=clippy::explicit_iter_loop' '--warn=clippy::explicit_into_iter_loop' --warn=elided_lifetimes_in_paths '--warn=clippy::dbg_macro' '--warn=clippy::checked_conversions' '--warn=rustdoc::broken_intra_doc_links' '--warn=rustdoc::bare_urls' -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="indoc"' --cfg 'feature="macros"' --cfg 'feature="pyo3-macros"' --cfg 'feature="unindent"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("abi3", "abi3-py310", "abi3-py311", "abi3-py312", "abi3-py37", "abi3-py38", "abi3-py39", "anyhow", "auto-initialize", "chrono", "chrono-tz", "default", "either", "experimental-async", "experimental-inspect", "extension-module", "eyre", "full", "generate-import-lib", "hashbrown", "indexmap", "indoc", "inventory", "macros", "multiple-pymethods", "nightly", "num-bigint", "num-complex", "num-rational", "py-clone", "pyo3-macros", "rust_decimal", "serde", "smallvec", "unindent"))' -C metadata=dcee8b1d11deec94 -C extra-filename=-dcee8b1d11deec94 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/build/pyo3-dcee8b1d11deec94 -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern pyo3_build_config=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libpyo3_build_config-81c76d1f170fec31.rlib --cap-lints allow`
+       Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/pyo3-ffi-63376036fa5ff2c1/build-script-build`
        Running `rustc --crate-name pyo3_ffi --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-ffi-0.23.5/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --warn=rust_2018_idioms '--warn=clippy::useless_transmute' '--warn=clippy::used_underscore_binding' --warn=unused_lifetimes '--warn=clippy::unnecessary_wraps' '--warn=clippy::todo' --warn=rust_2021_prelude_collisions '--warn=clippy::manual_ok_or' '--warn=clippy::manual_assert' '--warn=clippy::let_unit_value' --warn=invalid_doc_attributes '--warn=clippy::flat_map_option' '--warn=clippy::filter_map_next' '--warn=clippy::explicit_iter_loop' '--warn=clippy::explicit_into_iter_loop' --warn=elided_lifetimes_in_paths '--warn=clippy::dbg_macro' '--warn=clippy::checked_conversions' '--warn=rustdoc::broken_intra_doc_links' '--warn=rustdoc::bare_urls' --cfg 'feature="default"' --cfg 'feature="extension-module"' --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("abi3", "abi3-py310", "abi3-py311", "abi3-py312", "abi3-py37", "abi3-py38", "abi3-py39", "default", "extension-module", "generate-import-lib"))' -C metadata=1cb11f7279fad2fc -C extra-filename=-1cb11f7279fad2fc --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern libc=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/liblibc-4fdf7774c11f5fdc.rmeta --cap-lints allow --cfg Py_3_7 --cfg Py_3_8 --cfg Py_3_9 --cfg Py_3_10 --cfg Py_3_11 --cfg rustc_has_once_lock --cfg invalid_from_utf8_lint --cfg c_str_lit --cfg diagnostic_namespace --check-cfg 'cfg(Py_LIMITED_API)' --check-cfg 'cfg(Py_GIL_DISABLED)' --check-cfg 'cfg(PyPy)' --check-cfg 'cfg(GraalPy)' --check-cfg 'cfg(py_sys_config, values("Py_DEBUG", "Py_REF_DEBUG", "Py_TRACE_REFS", "COUNT_ALLOCS"))' --check-cfg 'cfg(invalid_from_utf8_lint)' --check-cfg 'cfg(pyo3_disable_reference_pool)' --check-cfg 'cfg(pyo3_leak_on_drop_without_reference_pool)' --check-cfg 'cfg(diagnostic_namespace)' --check-cfg 'cfg(c_str_lit)' --check-cfg 'cfg(rustc_has_once_lock)' --check-cfg 'cfg(fn_ptr_eq)' --check-cfg 'cfg(Py_3_7)' --check-cfg 'cfg(Py_3_8)' --check-cfg 'cfg(Py_3_9)' --check-cfg 'cfg(Py_3_10)' --check-cfg 'cfg(Py_3_11)' --check-cfg 'cfg(Py_3_12)' --check-cfg 'cfg(Py_3_13)'`
        Running `/builddir/build/BUILD/dulwich-0.22.8/target/release/build/pyo3-dcee8b1d11deec94/build-script-build`
        Running `rustc --crate-name pyo3_macros_backend --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-macros-backend-0.23.5/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no --warn=rust_2018_idioms '--warn=clippy::useless_transmute' '--warn=clippy::used_underscore_binding' --warn=unused_lifetimes '--warn=clippy::unnecessary_wraps' '--warn=clippy::todo' --warn=rust_2021_prelude_collisions '--warn=clippy::manual_ok_or' '--warn=clippy::manual_assert' '--warn=clippy::let_unit_value' --warn=invalid_doc_attributes '--warn=clippy::flat_map_option' '--warn=clippy::filter_map_next' '--warn=clippy::explicit_iter_loop' '--warn=clippy::explicit_into_iter_loop' --warn=elided_lifetimes_in_paths '--warn=clippy::dbg_macro' '--warn=clippy::checked_conversions' '--warn=rustdoc::broken_intra_doc_links' '--warn=rustdoc::bare_urls' -C debug-assertions=off --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values("experimental-async"))' -C metadata=61ddb6ba22602c54 -C extra-filename=-61ddb6ba22602c54 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern heck=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libheck-7fa6d918410f1098.rmeta --extern proc_macro2=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libproc_macro2-baf423cea9049fd8.rmeta --extern pyo3_build_config=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libpyo3_build_config-81c76d1f170fec31.rmeta --extern quote=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libquote-8cd8c0208400f4af.rmeta --extern syn=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libsyn-4030bcd796a98a79.rmeta --cap-lints allow --cfg rustc_has_once_lock --cfg invalid_from_utf8_lint --cfg c_str_lit --cfg diagnostic_namespace --check-cfg 'cfg(Py_LIMITED_API)' --check-cfg 'cfg(Py_GIL_DISABLED)' --check-cfg 'cfg(PyPy)' --check-cfg 'cfg(GraalPy)' --check-cfg 'cfg(py_sys_config, values("Py_DEBUG", "Py_REF_DEBUG", "Py_TRACE_REFS", "COUNT_ALLOCS"))' --check-cfg 'cfg(invalid_from_utf8_lint)' --check-cfg 'cfg(pyo3_disable_reference_pool)' --check-cfg 'cfg(pyo3_leak_on_drop_without_reference_pool)' --check-cfg 'cfg(diagnostic_namespace)' --check-cfg 'cfg(c_str_lit)' --check-cfg 'cfg(rustc_has_once_lock)' --check-cfg 'cfg(fn_ptr_eq)' --check-cfg 'cfg(Py_3_7)' --check-cfg 'cfg(Py_3_8)' --check-cfg 'cfg(Py_3_9)' --check-cfg 'cfg(Py_3_10)' --check-cfg 'cfg(Py_3_11)' --check-cfg 'cfg(Py_3_12)' --check-cfg 'cfg(Py_3_13)'`
@@ -753,7 +753,7 @@ Building wheels for collected packages: dulwich
       |                  ^^^^^^^^^
 
   warning: `objects-py` (lib) generated 4 warnings
-      Finished `release` profile [optimized] target(s) in 19.71s
+      Finished `release` profile [optimized] target(s) in 19.36s
    Downloading crates ...
     Downloaded portable-atomic v1.11.0
   Copying rust artifact from /builddir/build/BUILD/dulwich-0.22.8/target/release/libobjects_py.so to build/lib.linux-x86_64-cpython-311/dulwich/_objects.cpython-311-x86_64-linux-gnu.so
@@ -761,30 +761,30 @@ Building wheels for collected packages: dulwich
          Fresh target-lexicon v0.12.16
          Fresh unicode-ident v1.0.17
          Fresh autocfg v1.4.0
-         Fresh pyo3-build-config v0.23.5
          Fresh proc-macro2 v1.0.93
+         Fresh pyo3-build-config v0.23.5
          Fresh quote v1.0.38
          Fresh heck v0.5.0
          Fresh syn v2.0.98
-         Fresh pyo3-macros-backend v0.23.5
          Fresh libc v0.2.170
+         Fresh pyo3-macros-backend v0.23.5
          Fresh memoffset v0.9.1
          Fresh pyo3-ffi v0.23.5
          Fresh pyo3-macros v0.23.5
-         Fresh once_cell v1.20.3
          Fresh indoc v2.0.5
+         Fresh once_cell v1.20.3
          Fresh unindent v0.2.3
          Fresh cfg-if v1.0.0
          Fresh memchr v2.7.4
          Fresh pyo3 v0.23.5
      Compiling pack-py v0.22.8 (/builddir/build/BUILD/dulwich-0.22.8/crates/pack)
        Running `rustc --crate-name pack_py --edition=2021 crates/pack/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type cdylib --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --crate-type cdylib --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values())' -C metadata=cb1afb84c31d419c --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern memchr=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libmemchr-de9e3e1179a321f4.rlib --extern pyo3=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libpyo3-6c8c30a47237eb6e.rlib`
-      Finished `release` profile [optimized] target(s) in 0.76s
+      Finished `release` profile [optimized] target(s) in 0.81s
   Copying rust artifact from /builddir/build/BUILD/dulwich-0.22.8/target/release/libpack_py.so to build/lib.linux-x86_64-cpython-311/dulwich/_pack.cpython-311-x86_64-linux-gnu.so
   cargo rustc --lib --message-format=json-render-diagnostics --manifest-path crates/diff-tree/Cargo.toml --release -v --features pyo3/extension-module -- --crate-type cdylib
          Fresh target-lexicon v0.12.16
-         Fresh pyo3-build-config v0.23.5
          Fresh unicode-ident v1.0.17
+         Fresh pyo3-build-config v0.23.5
          Fresh autocfg v1.4.0
          Fresh proc-macro2 v1.0.93
          Fresh quote v1.0.38
@@ -792,13 +792,13 @@ Building wheels for collected packages: dulwich
          Fresh heck v0.5.0
          Fresh libc v0.2.170
          Fresh pyo3-macros-backend v0.23.5
-         Fresh pyo3-ffi v0.23.5
          Fresh memoffset v0.9.1
+         Fresh pyo3-ffi v0.23.5
          Fresh pyo3-macros v0.23.5
          Fresh unindent v0.2.3
+         Fresh once_cell v1.20.3
          Fresh indoc v2.0.5
          Fresh cfg-if v1.0.0
-         Fresh once_cell v1.20.3
          Fresh pyo3 v0.23.5
      Compiling diff-tree-py v0.22.8 (/builddir/build/BUILD/dulwich-0.22.8/crates/diff-tree)
        Running `rustc --crate-name diff_tree_py --edition=2021 crates/diff-tree/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type cdylib --emit=dep-info,link -C opt-level=3 -C embed-bitcode=no --crate-type cdylib --check-cfg 'cfg(docsrs)' --check-cfg 'cfg(feature, values())' -C metadata=8c02be999e7de783 --out-dir /builddir/build/BUILD/dulwich-0.22.8/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps --extern pyo3=/builddir/build/BUILD/dulwich-0.22.8/target/release/deps/libpyo3-6c8c30a47237eb6e.rlib`
@@ -817,7 +817,7 @@ Building wheels for collected packages: dulwich
       |                                          ^^^^^^^^^
 
   warning: `diff-tree-py` (lib) generated 2 warnings
-      Finished `release` profile [optimized] target(s) in 1.04s
+      Finished `release` profile [optimized] target(s) in 1.25s
   Copying rust artifact from /builddir/build/BUILD/dulwich-0.22.8/target/release/libdiff_tree_py.so to build/lib.linux-x86_64-cpython-311/dulwich/_diff_tree.cpython-311-x86_64-linux-gnu.so
   running build_scripts
   creating build/scripts-3.11
@@ -896,7 +896,7 @@ Building wheels for collected packages: dulwich
   changing mode of build/bdist.linux-x86_64/wheel/dulwich-0.22.8.data/scripts/dul-receive-pack to 755
   changing mode of build/bdist.linux-x86_64/wheel/dulwich-0.22.8.data/scripts/dul-upload-pack to 755
   creating build/bdist.linux-x86_64/wheel/dulwich-0.22.8.dist-info/WHEEL
-  creating '/builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-wheel-953xy1t4/.tmp-t16yuvji/dulwich-0.22.8-cp311-cp311-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11/pip-wheel-z0qs2sw9/.tmp-mb2rxz4z/dulwich-0.22.8-cp311-cp311-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'dulwich/__init__.py'
   adding 'dulwich/__main__.py'
   adding 'dulwich/_diff_tree.cpython-311-x86_64-linux-gnu.so'
@@ -967,7 +967,7 @@ Successfully built dulwich
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.pFsK05
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.1S3pBS
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64 '!=' / ']'
@@ -977,8 +977,8 @@ Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.pFsK05
 + mkdir /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64
 + cd dulwich-0.22.8
 ++ ls /builddir/build/BUILD/dulwich-0.22.8/pyproject-wheeldir-3.11/dulwich-0.22.8-cp311-cp311-linux_x86_64.whl
-++ xargs basename --multiple
 ++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ xargs basename --multiple
 + specifier=dulwich==0.22.8
 + '[' -z dulwich==0.22.8 ']'
 + TMPDIR=/builddir/build/BUILD/dulwich-0.22.8/.pyproject-builddir-3.11
@@ -1020,51 +1020,31 @@ removed '/builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib64/
 + '[' 1 -ne 1 ']'
 + RPM_FILES_ESCAPE=4.18
 + /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-dulwich-0.22.8-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-dulwich-0.22.8-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-dulwich-0.22.8-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
-+ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 0.22.8-1.el9 --unique-debug-suffix -0.22.8-1.el9.x86_64 --unique-debug-src-base python-dulwich-0.22.8-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/dulwich-0.22.8
-extracting debug info from /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib64/python3.11/site-packages/dulwich/_objects.cpython-311-x86_64-linux-gnu.so
-extracting debug info from /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib64/python3.11/site-packages/dulwich/_diff_tree.cpython-311-x86_64-linux-gnu.so
-extracting debug info from /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib64/python3.11/site-packages/dulwich/_pack.cpython-311-x86_64-linux-gnu.so
-Error while writing index for `/builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib64/python3.11/site-packages/dulwich/_diff_tree.cpython-311-x86_64-linux-gnu.so': No debugging symbols
-gdb-add-index: No index was created for /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib64/python3.11/site-packages/dulwich/_diff_tree.cpython-311-x86_64-linux-gnu.so
-gdb-add-index: [Was there no debuginfo? Was there already an index?]
-Error while writing index for `/builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib64/python3.11/site-packages/dulwich/_objects.cpython-311-x86_64-linux-gnu.so': No debugging symbols
-gdb-add-index: No index was created for /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib64/python3.11/site-packages/dulwich/_objects.cpython-311-x86_64-linux-gnu.so
-gdb-add-index: [Was there no debuginfo? Was there already an index?]
-Error while writing index for `/builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib64/python3.11/site-packages/dulwich/_pack.cpython-311-x86_64-linux-gnu.so': No debugging symbols
-gdb-add-index: No index was created for /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib64/python3.11/site-packages/dulwich/_pack.cpython-311-x86_64-linux-gnu.so
-gdb-add-index: [Was there no debuginfo? Was there already an index?]
-dwz: Too few files for multifile optimization
-original debug info size: 356kB, size after compression: 356kB
-/usr/bin/sepdebugcrcfix: Updated 0 CRC32s, 3 CRC32s did match.
 + /usr/lib/rpm/check-buildroot
 + /usr/lib/rpm/redhat/brp-ldconfig
 + /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/brp-strip /usr/bin/strip
++ /usr/lib/rpm/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
 + /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
 + /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
 + /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
 Bytecompiling .py files below /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib64/python3.11 using python3.11
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64/usr/lib/debug/usr/lib64/python3.11 using python3.11
 + /usr/lib/rpm/brp-python-hardlink
 + /usr/lib/rpm/redhat/brp-mangle-shebangs
 Processing files: python3.11-dulwich-0.22.8-1.el9.x86_64
 Provides: python3.11-dulwich = 0.22.8-1.el9 python3.11-dulwich(x86-64) = 0.22.8-1.el9 python3.11dist(dulwich) = 0.22.8
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
 Requires: /usr/bin/python3.11 ld-linux-x86-64.so.2()(64bit) ld-linux-x86-64.so.2(GLIBC_2.3)(64bit) libc.so.6()(64bit) libc.so.6(GLIBC_2.14)(64bit) libc.so.6(GLIBC_2.18)(64bit) libc.so.6(GLIBC_2.2.5)(64bit) libc.so.6(GLIBC_2.28)(64bit) libc.so.6(GLIBC_2.3)(64bit) libc.so.6(GLIBC_2.3.4)(64bit) libc.so.6(GLIBC_2.33)(64bit) libc.so.6(GLIBC_2.34)(64bit) libgcc_s.so.1()(64bit) libgcc_s.so.1(GCC_3.0)(64bit) libgcc_s.so.1(GCC_3.3)(64bit) libgcc_s.so.1(GCC_4.2.0)(64bit) python(abi) = 3.11 python3.11dist(urllib3) >= 1.25 rtld(GNU_HASH)
-Processing files: python-dulwich-debugsource-0.22.8-1.el9.x86_64
-
-
-RPM build errors:
-error: Empty %files file /builddir/build/BUILD/dulwich-0.22.8/debugsourcefiles.list
-    Empty %files file /builddir/build/BUILD/dulwich-0.22.8/debugsourcefiles.list
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-dulwich-0.22.8-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-dulwich-0.22.8-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-dulwich-0.22.8-1.el9.x86_64.rpm
 Finish: rpmbuild python-dulwich-0.22.8-1.el9.src.rpm
 Finish: build phase for python-dulwich-0.22.8-1.el9.src.rpm
-ERROR: Exception(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-dulwich-0.22.8-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 43 seconds
+INFO: Done(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-dulwich-0.22.8-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 44 seconds
 INFO: Results and/or logs in: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 467ad78584b34f84aaa4c9ee1e45b249 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.ell88hnl:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-dulwich.spec --nocheck'
-
+Finish: run
 Directory walk started
-Directory walk done - 11 packages
+Directory walk done - 16 packages
 Temporary output repo path: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)

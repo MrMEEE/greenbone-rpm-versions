@@ -33,3 +33,5 @@ pdm-backend
 flit-core
 crashtest
 rapidfuzz
+hatchling
+hatch-vcs

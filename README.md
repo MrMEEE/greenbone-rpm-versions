@@ -1,15 +1,15 @@
 ## Latest build
-The lastest package built was python-gssapi-1.9.0-1.el9.src.rpm
+The lastest package built was python-bcrypt-4.3.0-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:48:36 AM CEST 2025
+The build completed at Thu Jun 19 02:49:23 AM CEST 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-gssapi-1.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-bcrypt-4.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
-python3.11-bcrypt-4.3.0-1.el9 | python-bcrypt-4.3.0-1.el9.src.rpm | **Missing** |
+python3.11-bcrypt-4.3.0-1.el9 | python-bcrypt-4.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-bcrypt-4.3.0-1.el9.src.rpm.log)
 python3.11-build-1.2.2^post1-1.el9 | python-build-1.2.2^post1-1.el9.src.rpm | Built | [Log](logs/python-build-1.2.2^post1-1.el9.src.rpm.log)
 python3.11-cachecontrol-0.14.3-1.el9 | python-cachecontrol-0.14.3-1.el9.src.rpm | **Missing** | [Log](logs/python-cachecontrol-0.14.3-1.el9.src.rpm.log)
 python3.11-calver-2025.4.17-1.el9 | python-calver-2025.4.17-1.el9.src.rpm | Built | [Log](logs/python-calver-2025.4.17-1.el9.src.rpm.log)

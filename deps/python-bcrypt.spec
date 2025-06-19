@@ -14,7 +14,7 @@ Source:         %{pypi_source bcrypt}
 
 
 BuildRequires:  python%{python3_pkgversion}-devel
-BuildRequires:  gcc
+BuildRequires:  gcc rust cargo
 
 
 # Fill in the actual package description to submit package to Fedora

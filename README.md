@@ -1,7 +1,7 @@
 ## Latest build
 The lastest package built was python-bcrypt-4.3.0-1.el9.src.rpm
 
-The build completed at Thu Jun 19 03:07:39 AM CEST 2025
+The build completed at Thu Jun 19 03:11:04 AM CEST 2025
 
 The build was unsuccessful.
 
@@ -20,7 +20,6 @@ python3.11-dulwich-0.22.8-1.el9 | python-dulwich-0.22.8-1.el9.src.rpm | Built | 
 python3.11-fastjsonschema-2.21.1-1.el9 | python-fastjsonschema-2.21.1-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.21.1-1.el9.src.rpm.log)
 python3.11-findpython3.11-0.6.3-1.el9 | python-findpython-0.6.3-1.el9.src.rpm | **Missing** | [Log](logs/python-findpython-0.6.3-1.el9.src.rpm.log)
 python3.11-flit-core-3.12.0-1.el9 | python-flit-core-3.12.0-1.el9.src.rpm | Built | [Log](logs/python-flit-core-3.12.0-1.el9.src.rpm.log)
-python3.11-gssapi-1.9.0-1.el9 | python-gssapi-1.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-gssapi-1.9.0-1.el9.src.rpm.log)
 python3.11-gvm-26.2.0-1.el9 | python-gvm-26.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-gvm-26.2.0-1.el9.src.rpm.log)
 python3.11-hatchling-1.27.0-1.el9 | python-hatchling-1.27.0-1.el9.src.rpm | **Missing** |
 python3.11-hatch-vcs-0.5.0-1.el9 | python-hatch-vcs-0.5.0-1.el9.src.rpm | **Missing** |
@@ -46,4 +45,4 @@ python3.11-tomlkit-0.13.3-1.el9 | python-tomlkit-0.13.3-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2025.5.9.12-1.el9 | python-trove-classifiers-2025.5.9.12-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm.log)
 python3.11-virtualenv-20.31.2-1.el9 | python-virtualenv-20.31.2-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.31.2-1.el9.src.rpm.log)
 
-36 total packages, 22 packages built successfully, 14 packages left to fix
+35 total packages, 22 packages built successfully, 13 packages left to fix

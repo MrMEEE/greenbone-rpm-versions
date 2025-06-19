@@ -155,3 +155,9 @@ Error:
  Problem: nothing provides requested (python3.11dist(flit-core) < 4~~ with python3.11dist(flit-core) >= 3.11)
 (try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
 
+Directory walk started
+Directory walk done - 5 packages
+Temporary output repo path: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/.repodata/
+Preparing sqlite DBs
+Pool started (with 5 workers)
+Pool finished

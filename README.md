@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-bcrypt-4.3.0-1.el9.src.rpm
+The lastest package built was python-paramiko-3.5.1-1.el9.src.rpm
 
-The build completed at Thu Jun 19 03:22:10 AM CEST 2025
+The build completed at Thu Jun 19 03:23:44 AM CEST 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-bcrypt-4.3.0-1.el9.src.rpm.log)
+[Build Log](logs/python-paramiko-3.5.1-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

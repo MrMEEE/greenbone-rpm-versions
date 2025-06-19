@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-findpython-0.6.3-1.el9.src.rpm
+The lastest package built was python-flit-core-3.12.0-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:35:00 AM CEST 2025
+The build completed at Thu Jun 19 02:35:23 AM CEST 2025
 
 The build was successful.
 
-[Build Log](logs/python-findpython-0.6.3-1.el9.src.rpm.log)
+[Build Log](logs/python-flit-core-3.12.0-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -17,7 +17,7 @@ python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built 
 python3.11-dulwich-0.22.8-1.el9 | python-dulwich-0.22.8-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.22.8-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.21.1-1.el9 | python-fastjsonschema-2.21.1-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.21.1-1.el9.src.rpm.log)
 python3.11-findpython3.11-0.6.3-1.el9 | python-findpython-0.6.3-1.el9.src.rpm | **Missing** | [Log](logs/python-findpython-0.6.3-1.el9.src.rpm.log)
-python3.11-flit-core-3.12.0-1.el9 | python-flit-core-3.12.0-1.el9.src.rpm | **Missing** |
+python3.11-flit-core-3.12.0-1.el9 | python-flit-core-3.12.0-1.el9.src.rpm | Built | [Log](logs/python-flit-core-3.12.0-1.el9.src.rpm.log)
 python3.11-gvm-26.2.0-1.el9 | python-gvm-26.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-gvm-26.2.0-1.el9.src.rpm.log)
 python3.11-hatchling-1.27.0-1.el9 | python-hatchling-1.27.0-1.el9.src.rpm | **Missing** |
 python3.11-hatch-vcs-0.5.0-1.el9 | python-hatch-vcs-0.5.0-1.el9.src.rpm | **Missing** |
@@ -38,4 +38,4 @@ python3.11-tomlkit-0.13.3-1.el9 | python-tomlkit-0.13.3-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2025.5.9.12-1.el9 | python-trove-classifiers-2025.5.9.12-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm.log)
 python3.11-virtualenv-20.31.2-1.el9 | python-virtualenv-20.31.2-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.31.2-1.el9.src.rpm.log)
 
-28 total packages, 16 packages built successfully, 12 packages left to fix
+28 total packages, 17 packages built successfully, 11 packages left to fix

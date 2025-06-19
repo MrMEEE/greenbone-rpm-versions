@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pynacl-1.5.0-1.el9.src.rpm
+The lastest package built was python-invoke-2.2.0-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:46:53 AM CEST 2025
+The build completed at Thu Jun 19 02:47:49 AM CEST 2025
 
 The build was successful.
 
-[Build Log](logs/python-pynacl-1.5.0-1.el9.src.rpm.log)
+[Build Log](logs/python-invoke-2.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -24,7 +24,7 @@ python3.11-gvm-26.2.0-1.el9 | python-gvm-26.2.0-1.el9.src.rpm | **Missing** | [L
 python3.11-hatchling-1.27.0-1.el9 | python-hatchling-1.27.0-1.el9.src.rpm | **Missing** |
 python3.11-hatch-vcs-0.5.0-1.el9 | python-hatch-vcs-0.5.0-1.el9.src.rpm | **Missing** |
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
-python3.11-invoke-2.2.0-1.el9 | python-invoke-2.2.0-1.el9.src.rpm | **Missing** |
+python3.11-invoke-2.2.0-1.el9 | python-invoke-2.2.0-1.el9.src.rpm | Built | [Log](logs/python-invoke-2.2.0-1.el9.src.rpm.log)
 python3.11-packaging-25.0-1.el9 | python-packaging-25.0-1.el9.src.rpm | Built | [Log](logs/python-packaging-25.0-1.el9.src.rpm.log)
 python3.11-paramiko-3.5.1-1.el9 | python-paramiko-3.5.1-1.el9.src.rpm | **Missing** | [Log](logs/python-paramiko-3.5.1-1.el9.src.rpm.log)
 python3.11-pbs-installer-2025.6.12-1.el9 | python-pbs-installer-2025.6.12-1.el9.src.rpm | **Missing** | [Log](logs/python-pbs-installer-2025.6.12-1.el9.src.rpm.log)
@@ -43,4 +43,4 @@ python3.11-tomlkit-0.13.3-1.el9 | python-tomlkit-0.13.3-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2025.5.9.12-1.el9 | python-trove-classifiers-2025.5.9.12-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm.log)
 python3.11-virtualenv-20.31.2-1.el9 | python-virtualenv-20.31.2-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.31.2-1.el9.src.rpm.log)
 
-33 total packages, 18 packages built successfully, 15 packages left to fix
+33 total packages, 19 packages built successfully, 14 packages left to fix

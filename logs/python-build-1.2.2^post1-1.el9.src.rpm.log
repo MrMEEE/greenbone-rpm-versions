@@ -522,3 +522,9 @@ No matching package to install: 'python3.11dist(virtualenv) >= 20.0.35'
 Not all dependencies satisfied
 Error: Some packages could not be found.
 
+Directory walk started
+Directory walk done - 5 packages
+Temporary output repo path: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/.repodata/
+Preparing sqlite DBs
+Pool started (with 5 workers)
+Pool finished

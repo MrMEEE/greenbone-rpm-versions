@@ -30,3 +30,4 @@ tomlkit
 virtualenv
 pbm-backend
 pdm-backend
+flit-core

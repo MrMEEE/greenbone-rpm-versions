@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/ --resultdir /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/ --no-clean /opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-virtualenv-20.31.2-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/ --resultdir /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/ --no-clean '/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-build-1.2.2^post1-1.el9.src.rpm' --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-virtualenv-20.31.2-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-build-1.2.2^post1-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -32,12 +32,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-20.el9.noarch
   yum-4.14.0-25.el9.noarch
 Finish: chroot init
-Start: build phase for python-virtualenv-20.31.2-1.el9.src.rpm
-Start: build setup for python-virtualenv-20.31.2-1.el9.src.rpm
+Start: build phase for python-build-1.2.2^post1-1.el9.src.rpm
+Start: build setup for python-build-1.2.2^post1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750291200
-Wrote: /builddir/build/SRPMS/python-virtualenv-20.31.2-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-build-1.2.2^post1-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -45,40 +45,40 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                     [===                                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                                                                               2.9 MB/s | 3.0 kB     00:00    
-/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                     [===                                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                                                                               3.2 MB/s |  14 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                            [   ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                       19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                         [      ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                    25 kB/s | 4.5 kB     00:00    
+/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                     [===                                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                                                                               3.3 MB/s |  14 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                            [   ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                       21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                         [      ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                    24 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                                           [         ===                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                      24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                               [            ===                                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                               [               ===                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                          65 kB/s |  42 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                               [            ===                                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                         355 kB/s |  42 kB     00:00    
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
 Dependencies resolved.
 Nothing to do.
 Complete!
-Finish: build setup for python-virtualenv-20.31.2-1.el9.src.rpm
+Finish: build setup for python-build-1.2.2^post1-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-virtualenv-20.31.2-1.el9.src.rpm
+Start: rpmbuild python-build-1.2.2^post1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1750291200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.jYy8TO
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.KoMHL6
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf virtualenv-20.31.2
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/virtualenv-20.31.2.tar.gz
++ rm -rf build-1.2.2.post1
 + /usr/bin/tar -xof -
++ /usr/bin/gzip -dc /builddir/build/SOURCES/build-1.2.2.post1.tar.gz
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd virtualenv-20.31.2
++ cd build-1.2.2.post1
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.qXMtN9
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ciKSzn
 + umask 022
 + cd /builddir/build/BUILD
-+ cd virtualenv-20.31.2
++ cd build-1.2.2.post1
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(packaging)'
@@ -87,7 +87,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.qXMtN9
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/virtualenv-20.31.2/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/build-1.2.2.post1/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
@@ -97,21 +97,82 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.qXMtN9
 + LT_SYS_LIBRARY_PATH=/usr/lib64:
 + CC=gcc
 + CXX=g++
-+ TMPDIR=/builddir/build/BUILD/virtualenv-20.31.2/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/build-1.2.2.post1/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/virtualenv-20.31.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-virtualenv-20.31.2-1.el9.x86_64-3.11-pyproject-buildrequires -x docs,test
-Handling hatch-vcs>=0.3 from build-system.requires
-Requirement not satisfied: hatch-vcs>=0.3
-Handling hatchling>=1.17.1 from build-system.requires
-Requirement not satisfied: hatchling>=1.17.1
-Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-virtualenv-20.31.2-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv '*.dist-info/'
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/build-1.2.2.post1/pyproject-wheeldir-3.11 --output '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-buildrequires'
+Handling flit-core >= 3.8 from build-system.requires
+Requirement satisfied: flit-core >= 3.8
+   (installed: flit-core 3.9.0)
+Handling packaging >= 19.1 from hook generated metadata: Requires-Dist (build)
+Requirement satisfied: packaging >= 19.1
+   (installed: packaging 25.0)
+Handling pyproject_hooks from hook generated metadata: Requires-Dist (build)
+Requirement not satisfied: pyproject_hooks
+Handling colorama; os_name == "nt" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: colorama; os_name == "nt"
+Handling importlib-metadata >= 4.6; python_full_version < "3.10.2" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: importlib-metadata >= 4.6; python_full_version < "3.10.2"
+Handling tomli >= 1.1.0; python_version < "3.11" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: tomli >= 1.1.0; python_version < "3.11"
+Handling furo >= 2023.08.17 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: furo >= 2023.08.17 ; extra == "docs"
+Handling sphinx ~= 7.0 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx ~= 7.0 ; extra == "docs"
+Handling sphinx-argparse-cli >= 1.5 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx-argparse-cli >= 1.5 ; extra == "docs"
+Handling sphinx-autodoc-typehints >= 1.10 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx-autodoc-typehints >= 1.10 ; extra == "docs"
+Handling sphinx-issues >= 3.0.0 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx-issues >= 3.0.0 ; extra == "docs"
+Handling build[uv, virtualenv] ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: build[uv, virtualenv] ; extra == "test"
+Handling filelock >= 3 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: filelock >= 3 ; extra == "test"
+Handling pytest >= 6.2.4 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest >= 6.2.4 ; extra == "test"
+Handling pytest-cov >= 2.12 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-cov >= 2.12 ; extra == "test"
+Handling pytest-mock >= 2 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-mock >= 2 ; extra == "test"
+Handling pytest-rerunfailures >= 9.1 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-rerunfailures >= 9.1 ; extra == "test"
+Handling pytest-xdist >= 1.34 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-xdist >= 1.34 ; extra == "test"
+Handling wheel >= 0.36.0 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: wheel >= 0.36.0 ; extra == "test"
+Handling setuptools >= 42.0.0 ; extra == "test" and ( python_version < "3.10") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 42.0.0 ; extra == "test" and ( python_version < "3.10")
+Handling setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.10") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.10")
+Handling setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.11") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.11")
+Handling setuptools >= 67.8.0 ; extra == "test" and ( python_version >= "3.12") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 67.8.0 ; extra == "test" and ( python_version >= "3.12")
+Handling build[uv] ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: build[uv] ; extra == "typing"
+Handling importlib-metadata >= 5.1 ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: importlib-metadata >= 5.1 ; extra == "typing"
+Handling mypy ~= 1.9.0 ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: mypy ~= 1.9.0 ; extra == "typing"
+Handling tomli ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: tomli ; extra == "typing"
+Handling typing-extensions >= 3.7.4.3 ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: typing-extensions >= 3.7.4.3 ; extra == "typing"
+Handling uv >= 0.1.18 ; extra == "uv" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: uv >= 0.1.18 ; extra == "uv"
+Handling virtualenv >= 20.0.35 ; extra == "virtualenv" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: virtualenv >= 20.0.35 ; extra == "virtualenv"
++ cat '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-buildrequires'
++ rm -rfv build-1.2.2.post1.dist-info/
+removed 'build-1.2.2.post1.dist-info/WHEEL'
+removed 'build-1.2.2.post1.dist-info/METADATA'
+removed 'build-1.2.2.post1.dist-info/entry_points.txt'
+removed directory 'build-1.2.2.post1.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-virtualenv-20.31.2-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-build-1.2.2^post1-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -120,43 +181,373 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                     [===                                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                                                                               2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                            [===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                       21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                         [   ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                    24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                           [      ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                      24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                               [         ===                                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                         371 kB/s |  42 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                            [===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                       16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                         [   ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                    18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                           [      ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                      19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                               [         ===                                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                         362 kB/s |  42 kB     00:00    
 Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(hatch-vcs) >= 0.3'
+Package python3.11-flit-core-3.9.0-4.el9.noarch is already installed.
 Package python3.11-packaging-25.0-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(hatchling) >= 1.17.1'
+Package python3.11-packaging-25.0-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-virtualenv-20.31.2-1.el9.src.rpm
-Finish: build phase for python-virtualenv-20.31.2-1.el9.src.rpm
-ERROR: Exception(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-virtualenv-20.31.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 14 seconds
-INFO: Results and/or logs in: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 74d085d49bcc46adb648c3ce6078ab97 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.sho6cjfn:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-virtualenv-20.31.2-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+=======================================================================================================================================================================================================================
+ Package                                                   Architecture                          Version                                    Repository                                                            Size
+=======================================================================================================================================================================================================================
+Installing:
+ [1mpython3.11-pyproject-hooks                               [m noarch                                1.2.0-1.el9                                _opt_greenbonerpm_rpmbuilds_100_RPMS_                                 28 k
+
+Transaction Summary
+=======================================================================================================================================================================================================================
+Install  1 Package
+
+Total size: 28 k
+Installed size: 69 k
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                                                               1/1 
+  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [                                                                                                                                             ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [==                                                                                                                                           ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [=====                                                                                                                                        ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [=======                                                                                                                                      ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [========                                                                                                                                     ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [====================================                                                                                                         ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [======================================                                                                                                       ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [==============================================================                                                                               ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [================================================================                                                                             ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [======================================================================================================                                       ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [========================================================================================================                                     ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [===========================================================================================================                                  ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch [===========================================================================================================================================  ] 1/1  Installing       : python3.11-pyproject-hooks-1.2.0-1.el9.noarch                                                                                                                                                 1/1 
+  Running scriptlet: python3.11-pyproject-hooks-1.2.0-1.el9.noarch                                                                                                                                                 1/1 
+  Verifying        : python3.11-pyproject-hooks-1.2.0-1.el9.noarch                                                                                                                                                 1/1 
+Installed products updated.
+
+Installed:
+  python3.11-pyproject-hooks-1.2.0-1.el9.noarch                                                                                                                                                                        
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1750291200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.HmuU1w
++ umask 022
++ cd /builddir/build/BUILD
++ cd build-1.2.2.post1
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(packaging)'
++ echo 'python3.11dist(pip) >= 19'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/build-1.2.2.post1/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ CC=gcc
++ CXX=g++
++ TMPDIR=/builddir/build/BUILD/build-1.2.2.post1/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/build-1.2.2.post1/pyproject-wheeldir-3.11 --output '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-buildrequires'
+Handling flit-core >= 3.8 from build-system.requires
+Requirement satisfied: flit-core >= 3.8
+   (installed: flit-core 3.9.0)
+Handling packaging >= 19.1 from hook generated metadata: Requires-Dist (build)
+Requirement satisfied: packaging >= 19.1
+   (installed: packaging 25.0)
+Handling pyproject_hooks from hook generated metadata: Requires-Dist (build)
+Requirement satisfied: pyproject_hooks
+   (installed: pyproject_hooks 1.2.0)
+Handling colorama; os_name == "nt" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: colorama; os_name == "nt"
+Handling importlib-metadata >= 4.6; python_full_version < "3.10.2" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: importlib-metadata >= 4.6; python_full_version < "3.10.2"
+Handling tomli >= 1.1.0; python_version < "3.11" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: tomli >= 1.1.0; python_version < "3.11"
+Handling furo >= 2023.08.17 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: furo >= 2023.08.17 ; extra == "docs"
+Handling sphinx ~= 7.0 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx ~= 7.0 ; extra == "docs"
+Handling sphinx-argparse-cli >= 1.5 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx-argparse-cli >= 1.5 ; extra == "docs"
+Handling sphinx-autodoc-typehints >= 1.10 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx-autodoc-typehints >= 1.10 ; extra == "docs"
+Handling sphinx-issues >= 3.0.0 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx-issues >= 3.0.0 ; extra == "docs"
+Handling build[uv, virtualenv] ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: build[uv, virtualenv] ; extra == "test"
+Handling filelock >= 3 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: filelock >= 3 ; extra == "test"
+Handling pytest >= 6.2.4 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest >= 6.2.4 ; extra == "test"
+Handling pytest-cov >= 2.12 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-cov >= 2.12 ; extra == "test"
+Handling pytest-mock >= 2 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-mock >= 2 ; extra == "test"
+Handling pytest-rerunfailures >= 9.1 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-rerunfailures >= 9.1 ; extra == "test"
+Handling pytest-xdist >= 1.34 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-xdist >= 1.34 ; extra == "test"
+Handling wheel >= 0.36.0 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: wheel >= 0.36.0 ; extra == "test"
+Handling setuptools >= 42.0.0 ; extra == "test" and ( python_version < "3.10") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 42.0.0 ; extra == "test" and ( python_version < "3.10")
+Handling setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.10") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.10")
+Handling setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.11") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.11")
+Handling setuptools >= 67.8.0 ; extra == "test" and ( python_version >= "3.12") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 67.8.0 ; extra == "test" and ( python_version >= "3.12")
+Handling build[uv] ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: build[uv] ; extra == "typing"
+Handling importlib-metadata >= 5.1 ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: importlib-metadata >= 5.1 ; extra == "typing"
+Handling mypy ~= 1.9.0 ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: mypy ~= 1.9.0 ; extra == "typing"
+Handling tomli ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: tomli ; extra == "typing"
+Handling typing-extensions >= 3.7.4.3 ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: typing-extensions >= 3.7.4.3 ; extra == "typing"
+Handling uv >= 0.1.18 ; extra == "uv" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: uv >= 0.1.18 ; extra == "uv"
+Handling virtualenv >= 20.0.35 ; extra == "virtualenv" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: virtualenv >= 20.0.35 ; extra == "virtualenv"
++ cat '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-buildrequires'
++ rm -rfv build-1.2.2.post1.dist-info/
+removed 'build-1.2.2.post1.dist-info/WHEEL'
+removed 'build-1.2.2.post1.dist-info/METADATA'
+removed 'build-1.2.2.post1.dist-info/entry_points.txt'
+removed directory 'build-1.2.2.post1.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-build-1.2.2^post1-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                                                                               2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                                                       21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                                                    24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                      24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                                                         371 kB/s |  42 kB     00:00    
+/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                     [===                                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/                                                                                                                                               2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                            [===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                       17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                         [   ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                    19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                           [      ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                      18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                               [         ===                                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                         353 kB/s |  42 kB     00:00    
 Package pyproject-rpm-macros-1.16.2-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.11-2.el9.x86_64 is already installed.
-No matching package to install: 'python3.11dist(hatch-vcs) >= 0.3'
+Package python3.11-flit-core-3.9.0-4.el9.noarch is already installed.
 Package python3.11-packaging-25.0-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(hatchling) >= 1.17.1'
+Package python3.11-packaging-25.0-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-
+Package python3.11-pyproject-hooks-1.2.0-1.el9.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1750291200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.6uLgsx
++ umask 022
++ cd /builddir/build/BUILD
++ cd build-1.2.2.post1
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(packaging)'
++ echo 'python3.11dist(pip) >= 19'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/build-1.2.2.post1/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ CC=gcc
++ CXX=g++
++ TMPDIR=/builddir/build/BUILD/build-1.2.2.post1/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/build-1.2.2.post1/pyproject-wheeldir-3.11 --output '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-buildrequires'
+Handling flit-core >= 3.8 from build-system.requires
+Requirement satisfied: flit-core >= 3.8
+   (installed: flit-core 3.9.0)
+Handling packaging >= 19.1 from hook generated metadata: Requires-Dist (build)
+Requirement satisfied: packaging >= 19.1
+   (installed: packaging 25.0)
+Handling pyproject_hooks from hook generated metadata: Requires-Dist (build)
+Requirement satisfied: pyproject_hooks
+   (installed: pyproject_hooks 1.2.0)
+Handling colorama; os_name == "nt" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: colorama; os_name == "nt"
+Handling importlib-metadata >= 4.6; python_full_version < "3.10.2" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: importlib-metadata >= 4.6; python_full_version < "3.10.2"
+Handling tomli >= 1.1.0; python_version < "3.11" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: tomli >= 1.1.0; python_version < "3.11"
+Handling furo >= 2023.08.17 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: furo >= 2023.08.17 ; extra == "docs"
+Handling sphinx ~= 7.0 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx ~= 7.0 ; extra == "docs"
+Handling sphinx-argparse-cli >= 1.5 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx-argparse-cli >= 1.5 ; extra == "docs"
+Handling sphinx-autodoc-typehints >= 1.10 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx-autodoc-typehints >= 1.10 ; extra == "docs"
+Handling sphinx-issues >= 3.0.0 ; extra == "docs" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: sphinx-issues >= 3.0.0 ; extra == "docs"
+Handling build[uv, virtualenv] ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: build[uv, virtualenv] ; extra == "test"
+Handling filelock >= 3 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: filelock >= 3 ; extra == "test"
+Handling pytest >= 6.2.4 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest >= 6.2.4 ; extra == "test"
+Handling pytest-cov >= 2.12 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-cov >= 2.12 ; extra == "test"
+Handling pytest-mock >= 2 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-mock >= 2 ; extra == "test"
+Handling pytest-rerunfailures >= 9.1 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-rerunfailures >= 9.1 ; extra == "test"
+Handling pytest-xdist >= 1.34 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: pytest-xdist >= 1.34 ; extra == "test"
+Handling wheel >= 0.36.0 ; extra == "test" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: wheel >= 0.36.0 ; extra == "test"
+Handling setuptools >= 42.0.0 ; extra == "test" and ( python_version < "3.10") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 42.0.0 ; extra == "test" and ( python_version < "3.10")
+Handling setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.10") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.10")
+Handling setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.11") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 56.0.0 ; extra == "test" and ( python_version == "3.11")
+Handling setuptools >= 67.8.0 ; extra == "test" and ( python_version >= "3.12") from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: setuptools >= 67.8.0 ; extra == "test" and ( python_version >= "3.12")
+Handling build[uv] ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: build[uv] ; extra == "typing"
+Handling importlib-metadata >= 5.1 ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: importlib-metadata >= 5.1 ; extra == "typing"
+Handling mypy ~= 1.9.0 ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: mypy ~= 1.9.0 ; extra == "typing"
+Handling tomli ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: tomli ; extra == "typing"
+Handling typing-extensions >= 3.7.4.3 ; extra == "typing" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: typing-extensions >= 3.7.4.3 ; extra == "typing"
+Handling uv >= 0.1.18 ; extra == "uv" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: uv >= 0.1.18 ; extra == "uv"
+Handling virtualenv >= 20.0.35 ; extra == "virtualenv" from hook generated metadata: Requires-Dist (build)
+Ignoring alien requirement: virtualenv >= 20.0.35 ; extra == "virtualenv"
++ cat '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-buildrequires'
++ rm -rfv build-1.2.2.post1.dist-info/
+removed 'build-1.2.2.post1.dist-info/WHEEL'
+removed 'build-1.2.2.post1.dist-info/METADATA'
+removed 'build-1.2.2.post1.dist-info/entry_points.txt'
+removed directory 'build-1.2.2.post1.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.ViUW7g
++ umask 022
++ cd /builddir/build/BUILD
++ cd build-1.2.2.post1
++ mkdir -p /builddir/build/BUILD/build-1.2.2.post1/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ CC=gcc
++ CXX=g++
++ TMPDIR=/builddir/build/BUILD/build-1.2.2.post1/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/build-1.2.2.post1/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/build-1.2.2.post1
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: build
+  Building wheel for build (pyproject.toml): started
+  Running command Building wheel for build (pyproject.toml)
+  Building wheel for build (pyproject.toml): finished with status 'done'
+  Created wheel for build: filename=build-1.2.2.post1-py3-none-any.whl size=22950 sha256=07dc977f29b4c8ec3a8bb79a7963321ad96288716a2e2c78049e5d9f87b034c6
+  Stored in directory: /builddir/.cache/pip/wheels/12/8b/ae/1d24707cc6b9f65699da9bc1fdef895c68e3430e32aced5e0f
+Successfully built build
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.Itulcn
++ umask 022
++ cd /builddir/build/BUILD
++ '[' '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64' '!=' / ']'
++ rm -rf '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64'
+++ dirname '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64'
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64'
++ cd build-1.2.2.post1
+++ ls /builddir/build/BUILD/build-1.2.2.post1/pyproject-wheeldir-3.11/build-1.2.2.post1-py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=build==1.2.2.post1
++ '[' -z build==1.2.2.post1 ']'
++ TMPDIR=/builddir/build/BUILD/build-1.2.2.post1/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64' --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/build-1.2.2.post1/pyproject-wheeldir-3.11 build==1.2.2.post1
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/build-1.2.2.post1/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/build-1.2.2.post1-py3-none-any.whl
+Installing collected packages: build
+  Creating /builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/bin
+  changing mode of /builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/bin/pyproject-build to 755
+Successfully installed build-1.2.2.post1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/bin' ']'
++ '[' -z sP ']'
++ shebang_flags=-kasP
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pathfix.py -pni /usr/bin/python3.11 -kasP '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/bin/pyproject-build'
+/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/bin/pyproject-build: updating
++ rm -rfv '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/bin/__pycache__'
++ rm -f '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-ghost-distinfo'
++ site_dirs=()
++ '[' -d '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/lib/python3.11/site-packages' ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/lib64/python3.11/site-packages' '!=' '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/lib/python3.11/site-packages' ']'
++ '[' -d '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/lib64/python3.11/site-packages' ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/build-1.2.2.post1.dist-info'
++ sed -i s/pip/rpm/ '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/lib/python3.11/site-packages/build-1.2.2.post1.dist-info/INSTALLER'
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64' --record '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/lib/python3.11/site-packages/build-1.2.2.post1.dist-info/RECORD' --output '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-record'
++ rm -fv '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/lib/python3.11/site-packages/build-1.2.2.post1.dist-info/RECORD'
+removed '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/lib/python3.11/site-packages/build-1.2.2.post1.dist-info/RECORD'
++ rm -fv '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/lib/python3.11/site-packages/build-1.2.2.post1.dist-info/REQUESTED'
+removed '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/lib/python3.11/site-packages/build-1.2.2.post1.dist-info/REQUESTED'
+++ wc -l '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-ghost-distinfo'
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_FILES_ESCAPE=4.18
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-files' --output-modules '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-modules' --buildroot '/builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64' --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record '/builddir/build/BUILD/python-build-1.2.2^post1-1.el9.x86_64-3.11-pyproject-record' --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed '1.2.2^post1-1.el9' --unique-debug-suffix '-1.2.2^post1-1.el9.x86_64' --unique-debug-src-base 'python-build-1.2.2^post1-1.el9.x86_64' --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/build-1.2.2.post1
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-build-1.2.2^post1-1.el9.noarch
+Provides: python3.11-build = 1.2.2^post1-1.el9 python3.11dist(build) = 1.2.2^post1
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /usr/bin/python3.11 python(abi) = 3.11 python3.11dist(packaging) >= 19.1 python3.11dist(pyproject-hooks)
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-build-1.2.2^post1-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-build-1.2.2^post1-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-build-1.2.2^post1-1.el9.noarch.rpm
+Finish: rpmbuild python-build-1.2.2^post1-1.el9.src.rpm
+Finish: build phase for python-build-1.2.2^post1-1.el9.src.rpm
+INFO: Done(/opt/greenbone-rpm/rpmbuilds/1.0.0/SRPMS/python-build-1.2.2^post1-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 24 seconds
+INFO: Results and/or logs in: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS-TMP/
+Finish: run

@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pbs-installer-2025.6.12-1.el9.src.rpm
+The lastest package built was python-pdm-backend-2.4.4-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:30:54 AM CEST 2025
+The build completed at Thu Jun 19 02:31:17 AM CEST 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-pbs-installer-2025.6.12-1.el9.src.rpm.log)
+[Build Log](logs/python-pdm-backend-2.4.4-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -22,7 +22,7 @@ python3.11-gvm-26.2.0-1.el9 | python-gvm-26.2.0-1.el9.src.rpm | **Missing** | [L
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
 python3.11-packaging-25.0-1.el9 | python-packaging-25.0-1.el9.src.rpm | Built | [Log](logs/python-packaging-25.0-1.el9.src.rpm.log)
 python3.11-pbs-installer-2025.6.12-1.el9 | python-pbs-installer-2025.6.12-1.el9.src.rpm | **Missing** | [Log](logs/python-pbs-installer-2025.6.12-1.el9.src.rpm.log)
-python3.11-pdm-backend-2.4.4-1.el9 | python-pdm-backend-2.4.4-1.el9.src.rpm | **Missing** |
+python3.11-pdm-backend-2.4.4-1.el9 | python-pdm-backend-2.4.4-1.el9.src.rpm | Built | [Log](logs/python-pdm-backend-2.4.4-1.el9.src.rpm.log)
 python3.11-pkginfo-1.12.1.2-1.el9 | python-pkginfo-1.12.1.2-1.el9.src.rpm | **Missing** | [Log](logs/python-pkginfo-1.12.1.2-1.el9.src.rpm.log)
 python3.11-platformdirs-4.3.8-1.el9 | python-platformdirs-4.3.8-1.el9.src.rpm | **Missing** | [Log](logs/python-platformdirs-4.3.8-1.el9.src.rpm.log)
 python3.11-poetry-2.1.3-1.el9 | python-poetry-2.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-2.1.3-1.el9.src.rpm.log)
@@ -36,4 +36,4 @@ python3.11-tomlkit-0.13.3-1.el9 | python-tomlkit-0.13.3-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2025.5.9.12-1.el9 | python-trove-classifiers-2025.5.9.12-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm.log)
 python3.11-virtualenv-20.31.2-1.el9 | python-virtualenv-20.31.2-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.31.2-1.el9.src.rpm.log)
 
-26 total packages, 12 packages built successfully, 14 packages left to fix
+26 total packages, 13 packages built successfully, 13 packages left to fix

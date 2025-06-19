@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-gssapi-1.9.0-1.el9.src.rpm
+The lastest package built was python-paramiko-3.5.1-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:56:30 PM CEST 2025
+The build completed at Thu Jun 19 02:57:38 PM CEST 2025
 
 The build was successful.
 
-[Build Log](logs/python-gssapi-1.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-paramiko-3.5.1-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -28,7 +28,7 @@ python3.11-hatch-vcs-0.5.0-1.el9 | python-hatch-vcs-0.5.0-1.el9.src.rpm | **Miss
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
 python3.11-invoke-2.2.0-1.el9 | python-invoke-2.2.0-1.el9.src.rpm | Built | [Log](logs/python-invoke-2.2.0-1.el9.src.rpm.log)
 python3.11-packaging-25.0-1.el9 | python-packaging-25.0-1.el9.src.rpm | Built | [Log](logs/python-packaging-25.0-1.el9.src.rpm.log)
-python3.11-paramiko-3.5.1-1.el9 | python-paramiko-3.5.1-1.el9.src.rpm | **Missing** | [Log](logs/python-paramiko-3.5.1-1.el9.src.rpm.log)
+python3.11-paramiko-3.5.1-1.el9 | python-paramiko-3.5.1-1.el9.src.rpm | Built | [Log](logs/python-paramiko-3.5.1-1.el9.src.rpm.log)
 python3.11-pbs-installer-2025.6.12-1.el9 | python-pbs-installer-2025.6.12-1.el9.src.rpm | **Missing** | [Log](logs/python-pbs-installer-2025.6.12-1.el9.src.rpm.log)
 python3.11-pdm-backend-2.4.4-1.el9 | python-pdm-backend-2.4.4-1.el9.src.rpm | Built | [Log](logs/python-pdm-backend-2.4.4-1.el9.src.rpm.log)
 python3.11-pkginfo-1.12.1.2-1.el9 | python-pkginfo-1.12.1.2-1.el9.src.rpm | Built | [Log](logs/python-pkginfo-1.12.1.2-1.el9.src.rpm.log)
@@ -47,4 +47,4 @@ python3.11-tomlkit-0.13.3-1.el9 | python-tomlkit-0.13.3-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2025.5.9.12-1.el9 | python-trove-classifiers-2025.5.9.12-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm.log)
 python3.11-virtualenv-20.31.2-1.el9 | python-virtualenv-20.31.2-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.31.2-1.el9.src.rpm.log)
 
-37 total packages, 25 packages built successfully, 12 packages left to fix
+37 total packages, 26 packages built successfully, 11 packages left to fix

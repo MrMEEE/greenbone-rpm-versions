@@ -32,3 +32,4 @@ pbm-backend
 pdm-backend
 flit-core
 crashtest
+rapidfuzz

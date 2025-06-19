@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-gssapi-1.9.0-1.el9.src.rpm
+The lastest package built was python-decorator-5.2.1-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:51:56 PM CEST 2025
+The build completed at Thu Jun 19 02:53:22 PM CEST 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-gssapi-1.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-decorator-5.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -16,6 +16,7 @@ python3.11-calver-2025.4.17-1.el9 | python-calver-2025.4.17-1.el9.src.rpm | Buil
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-cython-3.1.2-1.el9 | python-cython-3.1.2-1.el9.src.rpm | Built | [Log](logs/python-cython-3.1.2-1.el9.src.rpm.log)
+python3.11-decorator-5.2.1-1.el9 | python-decorator-5.2.1-1.el9.src.rpm | Built | [Log](logs/python-decorator-5.2.1-1.el9.src.rpm.log)
 python3.11-dulwich-0.22.8-1.el9 | python-dulwich-0.22.8-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.22.8-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.21.1-1.el9 | python-fastjsonschema-2.21.1-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.21.1-1.el9.src.rpm.log)
 python3.11-findpython3.11-0.6.3-1.el9 | python-findpython-0.6.3-1.el9.src.rpm | **Missing** | [Log](logs/python-findpython-0.6.3-1.el9.src.rpm.log)
@@ -46,4 +47,4 @@ python3.11-tomlkit-0.13.3-1.el9 | python-tomlkit-0.13.3-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2025.5.9.12-1.el9 | python-trove-classifiers-2025.5.9.12-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.5.9.12-1.el9.src.rpm.log)
 python3.11-virtualenv-20.31.2-1.el9 | python-virtualenv-20.31.2-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.31.2-1.el9.src.rpm.log)
 
-36 total packages, 23 packages built successfully, 13 packages left to fix
+37 total packages, 24 packages built successfully, 13 packages left to fix

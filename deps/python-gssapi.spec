@@ -14,7 +14,7 @@ Source:         %{pypi_source gssapi}
 
 
 BuildRequires:  python%{python3_pkgversion}-devel
-BuildRequires:  gcc
+BuildRequires:  gcc heimdal-devel
 
 
 # Fill in the actual package description to submit package to Fedora

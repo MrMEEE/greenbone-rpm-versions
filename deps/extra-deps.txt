@@ -42,3 +42,4 @@ invoke
 pynacl
 cython
 setuptools-rust
+setuptools-scm

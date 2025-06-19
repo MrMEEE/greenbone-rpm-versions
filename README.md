@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-build-1.2.2^post1-1.el9.src.rpm
+The lastest package built was python-cachecontrol-0.14.3-1.el9.src.rpm
 
-The build completed at Thu Jun 19 02:28:04 AM CEST 2025
+The build completed at Thu Jun 19 02:28:24 AM CEST 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-build-1.2.2^post1-1.el9.src.rpm.log)
+[Build Log](logs/python-cachecontrol-0.14.3-1.el9.src.rpm.log)
 ## Package build status for version: 1.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

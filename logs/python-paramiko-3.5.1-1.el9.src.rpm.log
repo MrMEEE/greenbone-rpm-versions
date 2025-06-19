@@ -421,3 +421,9 @@ Package python3.11-setuptools-80.9.0-1.el9.noarch is already installed.
 Not all dependencies satisfied
 Error: Some packages could not be found.
 
+Directory walk started
+Directory walk done - 18 packages
+Temporary output repo path: /opt/greenbone-rpm/rpmbuilds/1.0.0/RPMS/.repodata/
+Preparing sqlite DBs
+Pool started (with 5 workers)
+Pool finished

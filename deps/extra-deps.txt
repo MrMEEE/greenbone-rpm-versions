@@ -35,3 +35,4 @@ crashtest
 rapidfuzz
 hatchling
 hatch-vcs
+paramiko
